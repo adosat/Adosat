@@ -7,10 +7,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.adosat.adosat.IotEeeRasberry">
+    tools:context="com.adosat.adosat.IotCseItArduino">
 
     <TextView
-        android:text="@string/RasberryPi"
+        android:text="@string/Arduino"
         android:layout_centerHorizontal="true"
         android:id="@+id/begi_and"
         android:textSize="25sp"
@@ -187,7 +187,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/WhatisRaspberryPi"
+                        android:text="@string/DescriptionaboutSensorsandActuators"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -214,7 +214,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/WhyRaspberryPi"
+                        android:text="@string/WhatisArduino"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -243,7 +243,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/Comparisonwithotherdevelopmentboards"
+                        android:text="@string/DescriptionaboutArchitectureandmodels"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -270,7 +270,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/ArchitectureandevolutionofRaspberryPi"
+                        android:text="@string/Detaileddecriptionabouttheboard"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -297,7 +297,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/RaspberryPiOSToolsandapplications"
+                        android:text="@string/Pinconfiguration"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -324,7 +324,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/Boarddescription"
+                        android:text="@string/WhatisArduinoIDE"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -390,7 +390,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/BasicCJAVAHTML"
+                        android:text="@string/BasicC"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -417,7 +417,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/IntroductiontoLinux"
+                        android:text="@string/WorkingwithIDE"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -444,7 +444,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/IntroductiontoPython"
+                        android:text="@string/WhatisLibrary"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -472,7 +472,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/WorkingwithPythonIDE"
+                        android:text="@string/PracticalworkingwithIDE"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -482,8 +482,19 @@
                 </LinearLayout>
             </RelativeLayout>
 
-            <RelativeLayout
+
+            <TextView
                 android:layout_below="@+id/rl16"
+                android:text="@string/communi"
+                android:gravity="start"
+                android:id="@+id/otrConcept"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_below="@+id/otrConcept"
                 android:id="@+id/rl17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -500,7 +511,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/WhatisLibrary"
+                        android:text="@string/ExternalInterfacingwithelectroniccomponents"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -527,7 +538,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/Importinglibrary"
+                        android:text="@string/LAN"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -554,7 +565,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/WorkingwithPythonIDE"
+                        android:text="@string/Bluetooth"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -563,19 +574,8 @@
 
                 </LinearLayout>
             </RelativeLayout>
-
-            <TextView
-                android:layout_below="@+id/rl19"
-                android:text="@string/communi"
-                android:gravity="start"
-                android:id="@+id/commu"
-                android:textSize="20sp"
-                android:textColor="@color/colorPrimaryDark"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
             <RelativeLayout
-                android:layout_below="@+id/commu"
+                android:layout_below="@+id/rl19"
                 android:id="@+id/rl20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -592,7 +592,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/LANWAN"
+                        android:text="@string/COAP"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -620,7 +620,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/MODBUS"
+                        android:text="@string/XMPP"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -649,7 +649,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/Remoteserveraccess"
+                        android:text="@string/ZWave"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -678,7 +678,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/SMTP"
+                        android:text="@string/Practicalworkingoncommunication"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -688,8 +688,18 @@
                 </LinearLayout>
             </RelativeLayout>
 
-            <RelativeLayout
+            <TextView
                 android:layout_below="@+id/rl23"
+                android:text="@string/WorkingwithArduino"
+                android:gravity="start"
+                android:id="@+id/otrConcept1"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_below="@+id/otrConcept1"
                 android:id="@+id/rl24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -706,7 +716,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/Bluetooth"
+                        android:text="@string/Selfprogramming"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -733,7 +743,7 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/ZWave"
+                        android:text="@string/Interfacing"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
                         android:layout_width="match_parent"
@@ -762,129 +772,6 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:paddingTop="15dp"
-                        android:text="@string/COAP"
-                        android:layout_weight="1.25"
-                        android:src="@drawable/okfilled"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-
-                </LinearLayout>
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_below="@+id/rl26"
-                android:id="@+id/rl27"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:weightSum="2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <ImageView
-                        android:layout_weight="0.50"
-                        android:src="@drawable/okfilled"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-                    <TextView
-                        android:paddingTop="15dp"
-                        android:text="@string/XMPP"
-                        android:layout_weight="1.25"
-                        android:src="@drawable/okfilled"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-
-                </LinearLayout>
-            </RelativeLayout>
-
-            <TextView
-                android:layout_below="@+id/rl27"
-                android:text="@string/WorkingwithRaspberryPi"
-                android:gravity="start"
-                android:id="@+id/selfi"
-                android:textSize="20sp"
-                android:textColor="@color/colorPrimaryDark"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <RelativeLayout
-                android:layout_below="@+id/selfi"
-                android:id="@+id/rl28"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:weightSum="2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <ImageView
-                        android:layout_weight="0.50"
-                        android:src="@drawable/okfilled"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-                    <TextView
-                        android:paddingTop="15dp"
-                        android:text="@string/Selfprogramming"
-                        android:layout_weight="1.25"
-                        android:src="@drawable/okfilled"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-
-                </LinearLayout>
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_below="@+id/rl28"
-                android:id="@+id/rl29"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:weightSum="2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <ImageView
-                        android:layout_weight="0.50"
-                        android:src="@drawable/okfilled"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-                    <TextView
-                        android:paddingTop="15dp"
-                        android:text="@string/Interfacing"
-                        android:layout_weight="1.25"
-                        android:src="@drawable/okfilled"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-
-                </LinearLayout>
-            </RelativeLayout>
-
-
-            <RelativeLayout
-                android:layout_below="@+id/rl29"
-                android:id="@+id/rl30"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:weightSum="2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <ImageView
-                        android:layout_weight="0.50"
-                        android:src="@drawable/okfilled"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-                    <TextView
-                        android:paddingTop="15dp"
                         android:text="@string/Implementationwithsensorsandcomponents"
                         android:layout_weight="1.25"
                         android:src="@drawable/okfilled"
@@ -894,7 +781,6 @@
 
                 </LinearLayout>
             </RelativeLayout>
-
 
         </RelativeLayout>
     </ScrollView>

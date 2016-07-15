@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#A4C639"
+    android:background="#ef1758"
     tools:context="com.adosat.adosat.CompAndroid">
 
 

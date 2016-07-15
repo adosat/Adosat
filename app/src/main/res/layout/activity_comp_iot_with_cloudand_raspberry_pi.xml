@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#A4C639"
+    android:background="#00979c"
     tools:context="com.adosat.adosat.CompIotWithCloudandRaspberryPi">
 
 
@@ -34,7 +34,7 @@
                 android:id="@+id/beginner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/CoreJava"
+                android:text="@string/Arduino"
                 android:textAllCaps="true"
                 android:textStyle="bold" />
 
@@ -99,7 +99,7 @@
                     android:text="@string/syllabus"
                     android:layout_weight="1"
                     android:onClick="corejava"
-                    android:id="@+id/bsylla"
+                    android:id="@+id/iotcsearduino"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:background="@drawable/mybuttons"
@@ -135,7 +135,7 @@
                 android:id="@+id/intermediate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/AdvancedJava"
+                android:text="@string/RasberryPi"
                 android:textAllCaps="true"
                 android:textStyle="bold" />
 
@@ -199,7 +199,7 @@
                     android:text="@string/syllabus"
                     android:layout_weight="1"
                     android:onClick="bsylla"
-                    android:id="@+id/bsyllas"
+                    android:id="@+id/iotcserasberrypi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/mybuttons"/>

@@ -227,11 +227,10 @@
             <TextView
                 android:layout_below="@+id/rl7"
                 android:text="@string/pgmConcept"
-                android:layout_centerHorizontal="true"
+                android:gravity="start"
                 android:id="@+id/begi_java"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="@color/colorPrimaryDark"
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
