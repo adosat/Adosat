@@ -227,7 +227,7 @@
             <TextView
                 android:layout_below="@+id/rl7"
                 android:text="@string/pgmConcept"
-                android:gravity="start"
+                    android:gravity="start"
                 android:id="@+id/begi_java"
                 android:textSize="20sp"
                 android:textColor="@color/colorPrimaryDark"
@@ -373,11 +373,10 @@
             <TextView
                 android:layout_below="@+id/rl12"
                 android:text="@string/basicOps"
-                android:layout_centerHorizontal="true"
+                android:gravity="start"
                 android:id="@+id/begi_java1"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="@color/colorPrimaryDark"
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -467,11 +466,10 @@
             <TextView
                 android:layout_below="@+id/rl15"
                 android:text="@string/otrConcept"
-                android:layout_centerHorizontal="true"
+                android:gravity="start"
                 android:id="@+id/otrConcept"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="@color/colorPrimaryDark"
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
