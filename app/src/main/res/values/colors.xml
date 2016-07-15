@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fb7f03</color>
+    <color name="colorPrimaryDark">#332971</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="textColorPrimary">#000000</color>
+    <color name="windowBackground">#000000</color>
+    <color name="navigationBarColor">#000000</color>
+
+
+    <color name="off_color_orange">#fb7f03</color>
+    <color name="bg_cube">#FFC96604</color>
+
+    <color name="bg">#e2e2e2</color>
+</resources>

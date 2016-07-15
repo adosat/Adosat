@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.adosat.adosat.IotEEE">
+
+    <TextView
+        android:text="@string/Arduino"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/begi_and"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_below="@+id/begi_and"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/IntroductiontoIoT"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/divider1"
+            android:layout_below="@+id/rl1"
+            android:src="@drawable/divider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_below="@+id/divider1"
+            android:id="@+id/rl2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/ElementsofIoT"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl2"
+            android:id="@+id/rl3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/ApplicationsofIoT"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl3"
+            android:id="@+id/rl4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/DescriptionaboutIoTGatewayandTechnology"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl4"
+            android:id="@+id/rl5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/DescriptionaboutIoTplatformsandanalytics"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl5"
+            android:id="@+id/rl6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/DescriptionaboutSensorsandActuators"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl6"
+            android:id="@+id/rl7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/WhatisArduino"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_below="@+id/rl7"
+            android:id="@+id/rl8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/DescriptionaboutArchitectureandmodels"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl8"
+            android:id="@+id/rl9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/Detaileddecriptionabouttheboard"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl9"
+            android:id="@+id/rl10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/Pinconfiguration"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl10"
+            android:id="@+id/rl11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/WhatisArduinoIDE"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl11"
+            android:id="@+id/rl12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/Practicalworkingwithsimpleprojects"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_below="@+id/rl12"
+            android:text="@string/pgm"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/begi_java1"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <RelativeLayout
+            android:layout_below="@+id/begi_java1"
+            android:id="@+id/rl13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/BasicC"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl13"
+            android:id="@+id/rl14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/WorkingwithIDE"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl14"
+            android:id="@+id/rl15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/WhatisLibrary"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@+id/rl15"
+            android:id="@+id/rl16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/PracticalworkingwithIDE"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_below="@+id/rl16"
+            android:text="@string/communi"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/otrConcept"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_below="@+id/otrConcept"
+            android:id="@+id/rl17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/ExternalInterfacingwithelectroniccomponents"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl17"
+            android:id="@+id/rl18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/LAN"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl18"
+            android:id="@+id/rl19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/Bluetooth"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl19"
+            android:id="@+id/rl20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/COAP"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@+id/rl20"
+            android:id="@+id/rl21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/XMPP"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_below="@+id/rl21"
+            android:id="@+id/rl22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/ZWave"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_below="@+id/rl22"
+            android:id="@+id/rl23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/Practicalworkingoncommunication"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_below="@+id/rl23"
+            android:text="@string/WorkingwithArduino"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/otrConcept1"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_below="@+id/otrConcept1"
+            android:id="@+id/rl24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/Selfprogramming"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rl24"
+            android:id="@+id/rl25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/Interfacing"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_below="@+id/rl25"
+            android:id="@+id/rl26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.50"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingTop="15dp"
+                    android:text="@string/Implementationwithsensorsandcomponents"
+                    android:layout_weight="1.25"
+                    android:src="@drawable/okfilled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

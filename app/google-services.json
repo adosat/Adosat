@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "140631734173",
+    "firebase_url": "https://adosat-963b5.firebaseio.com",
+    "project_id": "adosat-963b5",
+    "storage_bucket": "adosat-963b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140631734173:android:548e9332bfa4e9a1",
+        "android_client_info": {
+          "package_name": "com.adosat.adosat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140631734173-ohlorgoupv4uj57eprpg3ju3jhbmi71c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe6fG8VTZ-e1XaPs21OszcN7IxUm9_ilg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

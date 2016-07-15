@@ -1,0 +1,341 @@
+<resources>
+    <string name="facebook_app_id">1749526595304675</string>
+    <string name="app_name">Adosat</string>
+    <string name="imagebg_text">Adosat Academy</string>
+    <string name="overflow">Overflow</string>
+    <string name="mob_develop">Mobile Application Development</string>
+    <string name="web_app_deve">Web Designing</string>
+    <string name="acp">Adosat Career \n Program</string>
+    <string name="project">Project</string>
+    <string name="courses">Courses</string>
+    <string name="mini_pro">Mini-Project</string>
+    <string name="internship">Internship</string>
+    <string name="workshop">Workshop</string>
+    <string name="seminars">Seminars</string>
+    <string name="soft_skill">Soft Skills</string>
+    <string name="spokenEnglish2">Spoken English</string>
+
+
+    <!--departmens-->
+    <string name="departments">Departments Undertaken</string>
+    <string name="cseandit">Computer Science \n and \n Information Technology</string>
+    <string name="mechandcivil">Mechanical \n and \n Civil Department</string>
+    <string name="eeeandece">Electrical and Electronics \n and \n Electronics and Communication</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_computer_and_it_courses">CSE And IT Courses</string>
+    <string name="title_activity_mech_and_civil_courses">Mech and Civil Courses</string>
+    <string name="title_activity_eee_and_ece_courses">ECE And EEE Courses</string>
+    <string name="syllabus">Syllabus</string>
+
+    <string name="mail_1">Email</string>
+    <!--Courses level-->
+    <string name="beginner">Beginner</string>
+    <string name="advanced">Advance</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="expert">Expert</string>
+    <string name="hours">Hours</string>
+    <string name="price">Price</string>
+    <string name="CoreJava">Core Java</string>
+    <string name="AdvancedJava">Advanced Java</string>
+
+    <!--Android Content-->
+    <string name="and_beg">We welcome you to this beginners course of android application development. Get to know what is
+        android and very end you will be an android application developer</string>
+    <string name="and_beg_pric">Rs 8,999/-</string>
+    <string name="and_beg_hrs">40</string>
+
+    <string name="and_inter">We welcome you to this beginners course of android application development. Get to know what is
+        android and very end you will be an android application developer</string>
+    <string name="and_inter_pric">Rs 14,999/-</string>
+    <string name="and_inter_hrs">60</string>
+
+    <string name="and_adv">We welcome you to this beginners course of android application development. Get to know what is
+        android and very end you will be an android application developer</string>
+    <string name="and_adv_pric">Rs 20,999/-</string>
+    <string name="and_adv_hrs">80</string>
+
+    <string name="and_exp">We welcome you to this beginners course of android application development. Get to know what is
+        android and very end you will be an android application developer</string>
+    <string name="and_exp_pric">Rs 26,999/-</string>
+    <string name="and_exp_hrs">100</string>
+    <string name="title_activity_navigation">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--Android Beginner Content-->
+    <string name="begi1">History of Android</string>
+    <string name="begi2">Introduction to Android OS</string>
+    <string name="begi3">What is Android?</string>
+    <string name="begi4">Android Versioning</string>
+    <string name="begi5">Android Development Tools</string>
+    <string name="begi6">Android Architecture</string>
+    <string name="begi7">Android studio Installation</string>
+    <string name="begi8">Structure of Android Project</string>
+    <string name="begi9">OOPS Concepts – Inheritance, Polymorphism</string>
+    <string name="begi10">OOPS Concepts – Interfaces, Abstract class</string>
+    <string name="begi11">OOPS Concepts – Threads, Java Swings, Layout Managers</string>
+    <string name="begi12">OOPS Concepts – Overloading and Overriding</string>
+    <string name="begi13">Activity – Activity Life cycle ( Callback Methods)</string>
+    <string name="begi14">Activity – Fragments and Fragment Life cycle</string>
+    <string name="begi15">Services</string>
+    <string name="begi16">Content Providers</string>
+    <string name="begi17">Broadcast Receivers</string>
+    <string name="begi18">Introduction to Layouts and Design</string>
+    <string name="begi19">Layout Manager and different Layouts</string>
+    <string name="begi20">Basic Material design</string>
+    <string name="begi21">SQLite – Database Usage</string>
+    <string name="begi22">Application Design Guidelines</string>
+    <string name="begi23">Working on Gradle</string>
+    <string name="begi24">Google Maps</string>
+    <string name="begi25">Mini Project</string>
+
+    <!--Android Intermediate Content-->
+    <string name="inter1">History of Android</string>
+    <string name="inter2">Introduction to Android OS</string>
+    <string name="inter3">What is Android?</string>
+    <string name="inter4">Android Versioning</string>
+    <string name="inter5">Android Development Tools</string>
+    <string name="inter6">Android Architecture</string>
+    <string name="inter7">Android studio Installation</string>
+    <string name="inter8">Working on Android Studio</string>
+    <string name="inter9">Structure of Android Project</string>
+    <string name="inter10">OOPS Concepts – Inheritance, Polymorphism</string>
+    <string name="inter11">OOPS Concepts – Interfaces, Abstract class</string>
+    <string name="inter12">OOPS Concepts – Threads, Java Swings, Layout Managers</string>
+    <string name="inter13">OOPS Concepts – Overloading and Overriding)</string>
+    <string name="inter14">Activity – Activity Life cycle ( Callback Methods)</string>
+    <string name="inter15">Activity – Fragments and Fragment Life cycle</string>
+    <string name="inter16">Intent and Intent Filters</string>
+    <string name="inter17">Services</string>
+    <string name="inter18">Content Providers</string>
+    <string name="inter19">Broadcast Receivers</string>
+    <string name="inter20">Introduction to Layouts and Design</string>
+    <string name="inter21">Layout Manager and different Layouts</string>
+    <string name="inter22">Design the material design screen</string>
+    <string name="inter23">Design the screen by using library	</string>
+    <string name="inter24">SQLite – Database Usage</string>
+    <string name="inter25">Application Design Guidelines</string>
+    <string name="inter26">Working on Gradle</string>
+    <string name="inter27">Google Repositories</string>
+    <string name="inter28">Google cloud Messaging</string>
+    <string name="inter29">Google Maps</string>
+    <string name="inter30">Google Maps</string>
+
+    <!--Android Advanced Content-->
+    <string name="advanc1">History of Android</string>
+    <string name="advanc2">Introduction to Android OS</string>
+    <string name="advanc3">What is Android?</string>
+    <string name="advanc4">Android Versioning</string>
+    <string name="advanc5">Android Development Tools</string>
+    <string name="advanc6">Android Architecture</string>
+    <string name="advanc7">Android studio Installation</string>
+    <string name="advanc8">Working on Android Studio</string>
+    <string name="advanc9">Structure of Android Project</string>
+    <string name="advanc10">OOPS Concepts – Inheritance, Polymorphism</string>
+    <string name="advanc11">OOPS Concepts – Interfaces, Abstract class</string>
+    <string name="advanc12">OOPS Concepts – Threads, Java Swings, Layout Managers</string>
+    <string name="advanc13">OOPS Concepts – Overloading and Overriding)</string>
+    <string name="advanc14">Activity – Activity Life cycle ( Callback Methods)</string>
+    <string name="advanc15">Activity – Fragments and Fragment Life cycle</string>
+    <string name="advanc16">Intent and Intent Filters</string>
+    <string name="advanc17">Services</string>
+    <string name="advanc18">Content Providers</string>
+    <string name="advanc19">Broadcast Receivers</string>
+    <string name="advanc20">Introduction to Layouts and Design</string>
+    <string name="advanc21">Layout Manager and different Layouts</string>
+    <string name="advanc22">Design the material design screen</string>
+    <string name="advanc23">Design the screen by using library	</string>
+    <string name="advanc24">SQLite – Database Usage</string>
+    <string name="advanc25">Application Design Guidelines</string>
+    <string name="advanc26">Working on Gradle</string>
+    <string name="advanc27">Knowledge about Gradle and maven</string>
+    <string name="advanc28">Php</string>
+    <string name="advanc29">Mysql</string>
+    <string name="advanc30">Rest Api Json</string>
+    <string name="advanc31">Integrating Json</string>
+    <string name="advanc32">Google Repositories</string>
+    <string name="advanc33">Google support Libraries</string>
+    <string name="advanc34">Google cloud Messaging</string>
+    <string name="advanc35">Google Maps</string>
+    <string name="advanc36">Google Authentication Integration</string>
+    <string name="advanc37">Google Playstore</string>
+    <string name="advanc38">Google admob</string>
+    <string name="advanc39">Mini Project</string>
+
+    <!--Android Advanced Content-->
+    <string name="expert1">History of Android</string>
+    <string name="expert2">Introduction to Android OS</string>
+    <string name="expert3">What is Android?</string>
+    <string name="expert4">Android Versioning</string>
+    <string name="expert5">Android Development Tools</string>
+    <string name="expert6">Android Architecture</string>
+    <string name="expert7">Android studio Installation</string>
+    <string name="expert8">Working on Android Studio</string>
+    <string name="expert9">Structure of Android Project</string>
+    <string name="expert10">OOPS Concepts – Inheritance, Polymorphism</string>
+    <string name="expert11">OOPS Concepts – Interfaces, Abstract class</string>
+    <string name="expert12">OOPS Concepts – Threads, Java Swings, Layout Managers</string>
+    <string name="expert13">OOPS Concepts – Overloading and Overriding)</string>
+    <string name="expert14">Activity – Activity Life cycle ( Callback Methods)</string>
+    <string name="expert15">Activity – Fragments and Fragment Life cycle</string>
+    <string name="expert16">Intent and Intent Filters</string>
+    <string name="expert17">Services</string>
+    <string name="expert18">Content Providers</string>
+    <string name="expert19">Broadcast Receivers</string>
+    <string name="expert20">Introduction to Layouts and Design</string>
+    <string name="expert21">Layout Manager and different Layouts</string>
+    <string name="expert22">Design the material design screen</string>
+    <string name="expert23">Design the screen by using library	</string>
+    <string name="expert24">SQLite – Database Usage</string>
+    <string name="expert25">Application Design Guidelines</string>
+    <string name="expert26">Working on Gradle</string>
+    <string name="expert27">Knowledge about Gradle and maven</string>
+    <string name="expert28">Php</string>
+    <string name="expert29">Mysql</string>
+    <string name="expert30">Rest Api Json</string>
+    <string name="expert31">Integrating Json</string>
+    <string name="expert32">Working With Server</string>
+    <string name="expert33">Complete FireBase technology</string>
+    <string name="expert34">Google Repositories</string>
+    <string name="expert35">Google support Libraries</string>
+    <string name="expert36">Google cloud Messaging</string>
+    <string name="expert37">Google Authentication Integration</string>
+    <string name="expert38">Google Playstore</string>
+    <string name="expert39">Google Cloud</string>
+    <string name="expert40">Google admob</string>
+    <string name="expert41">Dynamic project with Real time server</string>
+
+
+    <!--Core Java-->
+    <string name="corejava1">What is Java?</string>
+    <string name="corejava2">History of Java.</string>
+    <string name="corejava3">Why Java?</string>
+    <string name="corejava4">First Program in Java</string>
+    <string name="corejava5">Specifications</string>
+    <string name="corejava6">Latest technology</string>
+    <string name="corejava7">Installation and IDE</string>
+    <string name="corejava8">Versions</string>
+    <string name="corejava9">Data types, Identifiers</string>
+    <string name="corejava10">Variables and Operators</string>
+    <string name="corejava11">Arrays</string>
+    <string name="corejava12">Access Specifier</string>
+    <string name="corejava13">Control Structures</string>
+    <string name="corejava14">Objects and Classes</string>
+    <string name="corejava15">Inheritance,Polymorphism</string>
+    <string name="corejava16">Abstraction and encapsulation</string>
+    <string name="corejava17">Methods overloading and overriding</string>
+    <string name="corejava18">Methods, Constructors and Getters and Setters?</string>
+    <string name="corejava19">Various Keywords</string>
+    <string name="corejava20">Strings</string>
+    <string name="corejava21">Polymorphism and Encapsulation</string>
+    <string name="corejava22">Abstract class and Interface</string>
+    <string name="corejava23">Exceptions and Aggregation</string>
+    <string name="corejava24">Multithreading</string>
+    <string name="corejava25">Packages</string>
+    <string name="corejava26">Collection and Generics</string>
+    <string name="corejava27">I/O Fundamentals</string>
+    <string name="corejava28">Exception handling</string>
+    <string name="corejava29">Wrapper Class</string>
+
+    <string name="pgmConcept">Basic programming Concepts</string>
+    <string name="basicOps">Basic OOPs </string>
+    <string name="otrConcept">Other Concepts</string>
+
+    <!--J2EE-->
+    <string name="j2ee">J2EE</string>
+    <string name="j2ee1">History of J2EE</string>
+    <string name="j2ee2">What is J2EE?</string>
+    <string name="j2ee3">Why J2EE?</string>
+    <string name="j2ee4">Setting up the Environment</string>
+    <string name="j2ee5">Architecture of J2EE</string>
+    <string name="j2ee6">Components</string>
+    <string name="j2ee7">J2EE servers</string>
+    <string name="j2ee8">J2EE Platform services</string>
+    <string name="j2ee9">Deployment and Security</string>
+    <string name="j2ee10">Overview of Servlets</string>
+    <string name="j2ee11">Need for Servlets</string>
+    <string name="j2ee12">Life Cycle of an Servlet</string>
+    <string name="j2ee13">Creating a Servlet</string>
+    <string name="j2ee14">Deploying a Servlet</string>
+    <string name="j2ee15">Deployment Descriptor</string>
+    <string name="j2ee16">Servlet Request API</string>
+    <string name="j2ee17">Servlet Response API</string>
+    <string name="j2ee18">Servlet Context API</string>
+    <string name="j2ee19">HTTP Servlet</string>
+    <string name="j2ee20">HTTP Servlet Request API</string>
+    <string name="j2ee21">HTTP Servlet Response API</string>
+    <string name="j2ee22">HTTP Session API</string>
+    <string name="j2ee23">Lifecycle events</string>
+    <string name="j2ee24">Servlet Request and Servlet Context Listeners</string>
+    <string name="j2ee25">HTTP Session Listeners</string>
+    <string name="j2ee26">URL Rewriting and Hidden Form field</string>
+    <string name="j2ee27">Cookies Advanced Concepts</string>
+    <string name="j2ee28">Servlet Filters</string>
+    <string name="j2ee29">Sample Implementation of Servlet Filters</string>
+    <string name="j2ee30">Thread safe Servlets</string>
+
+    <string name="OverviewofJ2EE">Overview of J2EE</string>
+    <string name="JavaServlets">Java Servlets</string>
+    <string name="ServletAPIs">Servlet APIs</string>
+    <string name="ServletLifeCycleAPIs">Servlet LifeCycle APIs</string>
+    <string name="SessionManagement">Session Management</string>
+
+
+    <!--IOT MECH ECE AND CSE-->
+    <!--Arduino-->
+    <string name="Arduino">Arduino</string>
+    <string name="pgm">Programming</string>
+    <string name="communi">Communication</string>
+    <string name="IntroductiontoIoT">Introduction to IoT</string>
+    <string name="ElementsofIoT">Elements of IoT</string>
+    <string name="ApplicationsofIoT">Applications of IoT</string>
+    <string name="DescriptionaboutIoTGatewayandTechnology">Description about IoT Gateway and Technology</string>
+    <string name="DescriptionaboutIoTplatformsandanalytics">Description aboutIoT platforms and analytics</string>
+    <string name="DescriptionaboutSensorsandActuators">Description about Sensors and Actuators</string>
+    <string name="WhatisArduino">What is Arduino ?</string>
+    <string name="DescriptionaboutArchitectureandmodels">Description about Architecture and models</string>
+    <string name="Detaileddecriptionabouttheboard">Detailed decription about the board</string>
+    <string name="Pinconfiguration">Pin configuration</string>
+    <string name="WhatisArduinoIDE">What is Arduino IDE?</string>
+    <string name="Practicalworkingwithsimpleprojects">Practical working with simple projects</string>
+    <string name="BasicC">Basic C</string>
+    <string name="WorkingwithIDE">Working with IDE</string>
+    <string name="WhatisLibrary">What is Library?</string>
+    <string name="PracticalworkingwithIDE">Practical working with simple projects</string>
+
+    <string name="WorkingwithArduino">Working with Arduino</string>
+    <string name="ExternalInterfacingwithelectroniccomponents">External Interfacing with electronic components</string>
+    <string name="LAN">LAN</string>
+    <string name="Bluetooth">Bluetooth</string>
+    <string name="COAP">COAP</string>
+    <string name="XMPP">XMPP</string>
+    <string name="ZWave">Z-Wave</string>
+    <string name="Practicalworkingoncommunication">Basic C</string>
+    <string name="Selfprogramming">Self programming</string>
+    <string name="Interfacing">Interfacing</string>
+    <string name="Implementationwithsensorsandcomponents">Implementation with sensors and components</string>
+
+    <!--Rasberry Pi-->
+    <string name="RasberryPi">Rasberry Pi</string>
+    <string name="WhatisRaspberryPi">What is Raspberry Pi?</string>
+    <string name="WhyRaspberryPi">Why Raspberry Pi?</string>
+    <string name="Comparisonwithotherdevelopmentboards">Comparison with other development boards.</string>
+    <string name="ArchitectureandevolutionofRaspberryPi">Architecture and evolution of Raspberry Pi</string>
+    <string name="RaspberryPiOSToolsandapplications">Raspberry Pi OS – Tools and applications</string>
+    <string name="Boarddescription">Board description</string>
+
+    <string name="BasicCJAVAHTML">Basic C, JAVA,HTML</string>
+    <string name="IntroductiontoLinux">Introduction to Linux</string>
+    <string name="IntroductiontoPython">Introduction to Python</string>
+    <string name="WorkingwithPythonIDE">Working with Python IDE</string>
+    <string name="Importinglibrary">Importing library</string>
+
+    <string name="LANWAN">LAN-WAN</string>
+    <string name="MODBUS">MODBUS</string>
+    <string name="Remoteserveraccess">Remote server access</string>
+    <string name="SMTP">SMTP</string>
+    <string name="WorkingwithRaspberryPi">Working with Raspberry Pi</string>
+
+
+</resources>

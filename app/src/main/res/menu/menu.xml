@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+            android:icon="@drawable/ic_more_vert_black_24dp"
+            android:id="@+id/empty"
+            android:orderInCategory="101"
+            app:showAsAction="ifRoom">
+
+        <menu>
+                <item
+            android:icon="@drawable/call"
+            android:id="@+id/call"
+            android:orderInCategory="100"
+            android:title="Call"
+            app:showAsAction="never" />
+
+        <item
+            android:icon="@drawable/mail"
+            android:id="@+id/email"
+            android:orderInCategory="100"
+            android:title="Mail"
+            app:showAsAction="never" />
+
+        <item
+            android:icon="@drawable/navigate"
+            android:id="@+id/map"
+            android:orderInCategory="100"
+            android:title="Navigate"
+            app:showAsAction="never" />
+
+         <item
+                    android:icon="@drawable/navigate"
+                    android:id="@+id/fb"
+                    android:orderInCategory="100"
+                    android:title="Navigate"
+                    app:showAsAction="never" />
+
+</menu>>
+</item>
+
+
+</menu>

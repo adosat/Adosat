@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#dcdcdc"
+    tools:context="com.adosat.adosat.AndroidBeginner">
+
+    <TextView
+        android:text="Android Advanced"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/begi_and"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_below="@+id/begi_and"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc1"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/divider1"
+                android:layout_below="@+id/rl1"
+                android:src="@drawable/divider"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <RelativeLayout
+                android:layout_below="@+id/divider1"
+                android:id="@+id/rl2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc2"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl2"
+                android:id="@+id/rl3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc3"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl3"
+                android:id="@+id/rl4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc4"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl4"
+                android:id="@+id/rl5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc5"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl5"
+                android:id="@+id/rl6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc6"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl6"
+                android:id="@+id/rl7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc7"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl7"
+                android:id="@+id/rl8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc8"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl8"
+                android:id="@+id/rl9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc9"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl9"
+                android:id="@+id/rl10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc10"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl10"
+                android:id="@+id/rl11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc11"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl11"
+                android:id="@+id/rl12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc12"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl12"
+                android:id="@+id/rl13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc13"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl13"
+                android:id="@+id/rl14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc14"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl14"
+                android:id="@+id/rl15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc15"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl15"
+                android:id="@+id/rl16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc16"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/rl16"
+                android:id="@+id/rl17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc17"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl17"
+                android:id="@+id/rl18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc18"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl18"
+                android:id="@+id/rl19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc19"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl19"
+                android:id="@+id/rl20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc20"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/rl20"
+                android:id="@+id/rl21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc21"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_below="@+id/rl21"
+                android:id="@+id/rl22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc22"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_below="@+id/rl22"
+                android:id="@+id/rl23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc23"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/rl23"
+                android:id="@+id/rl24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc24"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl24"
+                android:id="@+id/rl25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc25"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_below="@+id/rl25"
+                android:id="@+id/rl26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc26"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/rl26"
+                android:id="@+id/rl27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc27"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/rl27"
+                android:id="@+id/rl28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc28"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/rl28"
+                android:id="@+id/rl29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc29"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl29"
+                android:id="@+id/rl30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc30"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/rl30"
+                android:id="@+id/rl31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc31"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+                      <RelativeLayout
+                android:layout_below="@+id/rl31"
+                android:id="@+id/rl32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc32"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl32"
+                android:id="@+id/rl33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc33"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/rl33"
+                android:id="@+id/rl34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc34"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/rl34"
+                android:id="@+id/rl35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc35"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/rl35"
+                android:id="@+id/rl36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc36"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl36"
+                android:id="@+id/rl37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc37"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/rl37"
+                android:id="@+id/rl38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc38"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@+id/rl38"
+                android:id="@+id/rl39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_weight="0.50"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:paddingTop="15dp"
+                        android:text="@string/advanc39"
+                        android:layout_weight="1.25"
+                        android:src="@drawable/okfilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
