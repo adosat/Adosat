@@ -89,6 +89,11 @@
             android:theme="@style/AppTheme.DialogBox" />
         <activity android:name=".IotEeeRasberry"
             android:theme="@style/AppTheme.DialogBox"/>
+        <activity android:name=".AndroidAppdevelopment"/>
+        <activity android:name=".MobileAppDevelopmentActivity"/>
+        <activity android:name=".IosDevelopmentActivity"/>
+        <activity android:name=".WindowsDevelopmentActivity"/>
+        <activity android:name=".CrossPlatformActivity"/>
     </application>
 
 </manifest>

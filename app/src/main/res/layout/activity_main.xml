@@ -42,7 +42,7 @@
     <android.support.v7.widget.CardView
         card_view:cardBackgroundColor="@color/off_color_orange"
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/card_view1"
+        android:id="@+id/mobdev"
         android:layout_width="170dp"
         android:layout_height="120dp"
         android:elevation="10dp">

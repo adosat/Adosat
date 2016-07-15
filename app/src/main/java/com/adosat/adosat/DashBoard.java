@@ -20,7 +20,7 @@ public class DashBoard extends AppCompatActivity {
     private MediaPlayer mMediaPlayer;
 
 
-    CardView crdview;
+    CardView crdview,crdview1;
 
 
 
@@ -37,6 +37,15 @@ public class DashBoard extends AppCompatActivity {
             public void onClick(View v) {
                 // Add your code in here!
                 Intent in = new Intent(DashBoard.this, Departments.class);
+                startActivity(in);
+            }
+        });
+        crdview1 = (CardView) findViewById(R.id.mobdev);
+        crdview1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Add your code in here!
+                Intent in = new Intent(DashBoard.this, MobileAppDevelopmentActivity.class);
                 startActivity(in);
             }
         });
