@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/windows"
+        android:id="@+id/imageView2"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal" />
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+
+        <TextView
+            android:text=" we’re proud to offer a range of native mobile app development services, including Android app development. Our native Android apps are built from the ground up to take advantage of the functionality and characteristics that make this the world’s fastest growing mobile platform, and each app leverages those qualities to the utmost. When it comes to Android app development, we believe that full customization is the key, not the exception."
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+

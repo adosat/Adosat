@@ -89,6 +89,7 @@
             android:theme="@style/AppTheme.DialogBox" />
         <activity android:name=".IotEeeRasberry"
             android:theme="@style/AppTheme.DialogBox"/>
+        <activity android:name=".FollowFacebook"/>
     </application>
 
 </manifest>
