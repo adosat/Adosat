@@ -11,6 +11,12 @@
 
         <menu>
                 <item
+                    android:icon="@drawable/ic_group_black_24dp"
+                    android:id="@+id/aboutus"
+                    android:orderInCategory="100"
+                    android:title="About us"
+                    app:showAsAction="never" />
+                <item
             android:icon="@drawable/call"
             android:id="@+id/call"
             android:orderInCategory="100"
