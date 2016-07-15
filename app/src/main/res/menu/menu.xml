@@ -32,7 +32,7 @@
             app:showAsAction="never" />
 
          <item
-                    android:icon="@drawable/navigate"
+                    android:icon="@drawable/fbicon"
                     android:id="@+id/fb"
                     android:orderInCategory="100"
                     android:title="Navigate"

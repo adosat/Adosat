@@ -87,13 +87,8 @@
         <activity
             android:name=".IotEEE"
             android:theme="@style/AppTheme.DialogBox" />
-        <activity
-            android:name=".IotEeeRasberry"
-            android:theme="@style/AppTheme.DialogBox" />
-        <activity
-            android:name=".IotCseItArduino"
-            android:theme="@style/AppTheme.DialogBox" />
-        <activity android:name=".IotCseRasberryPi"></activity>
+        <activity android:name=".IotEeeRasberry"
+            android:theme="@style/AppTheme.DialogBox"/>
     </application>
 
 </manifest>
