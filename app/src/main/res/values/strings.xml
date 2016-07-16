@@ -14,6 +14,10 @@
     <string name="seminars">Seminars</string>
     <string name="soft_skill">Soft Skills</string>
     <string name="spokenEnglish2">Spoken English</string>
+    <string name="androiddevelop">Android Application Development</string>
+    <string name="iosdevelop">iOS Application Development</string>
+    <string name="windowsdevelop">Windows Application Development</string>
+    <string name="Crossplatform">Cross Platform Development</string>
 
 
     <!--departmens-->
