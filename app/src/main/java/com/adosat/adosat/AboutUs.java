@@ -7,10 +7,10 @@ import android.support.v7.app.AppCompatActivity;
 /**
  * Created by jenith on 7/15/2016.
  */
-public class CrossPlatformActivity extends AppCompatActivity {
+public class AboutUs extends AppCompatActivity {
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_crossplatform);
-
+        setContentView(R.layout.activity_aboutus);
     }
 }

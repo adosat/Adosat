@@ -86,6 +86,10 @@ public class DashBoard extends AppCompatActivity {
             Intent mapIntent = new Intent(DashBoard.this,FollowFacebook.class);
             startActivity(mapIntent);
         }
+        if (id == R.id.aboutus) {
+            Intent mapIntent = new Intent(DashBoard.this,AboutUs.class);
+            startActivity(mapIntent);
+        }
 
 
         return super.onOptionsItemSelected(item);
@@ -95,7 +99,7 @@ public class DashBoard extends AppCompatActivity {
         // TODO Auto-generated method stub
         super.onPause();
         mMediaPlayer.stop();
-        finish();
+
     }
 
 }
