@@ -107,6 +107,19 @@
 
         <activity android:name=".MysqlActivity"
             android:parentActivityName=".ComputerAndItCourses"/>
+        <activity android:name=".CcnaActivity"
+            android:parentActivityName=".ComputerAndItCourses"/>
+        <activity android:name=".AutoCadActivity"
+            android:parentActivityName=".MechAndCivilCourses"/>
+        <activity android:name=".CattiaActivity"
+            android:parentActivityName=".MechAndCivilCourses"/>
+        <activity android:name=".ProeActivity"
+            android:parentActivityName=".MechAndCivilCourses"/>
+        <activity android:name=".SttadProActivity"
+            android:parentActivityName=".MechAndCivilCourses"/>
+        <activity android:name=".MatlabActivity"
+            android:parentActivityName=".EEEandECECourses"/>
+
 
     </application>
 

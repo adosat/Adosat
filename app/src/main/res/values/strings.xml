@@ -455,6 +455,28 @@ those threats</string>
     <string name="staad8"> Post Processing  </string>
     <string name="staad9"> Concrete Design </string>
     <string name="staad10">Steel Design  </string>
+    <!--mat lab-->
+    <string name="mat1">MATLAB and SIMULINK  </string>
+    <string name="mat2">More Complicated Data Structures
+ </string>
+    <string name="mat3"> How to deal with Matrices and Arrays in MATLAB
+ </string>
+    <string name="mat4"> Creating Scripts in MATLAB  </string>
+    <string name="mat5"> Plotting Commands
+ </string>
+    <string name="mat6">Flow control Commands </string>
+    <string name="mat7">User defined functions  </string>
+    <string name="mat8">Functioning and use of predefined functions </string>
+    <string name="mat9"> External Interfaces (serial Port)  </string>
+    <string name="mat10">The MATLAB Desktop </string>
+    <string name="mat11">MATLAB Programming  </string>
+    <string name="mat12">MATLAB Editor and Debugger  </string>
+    <string name="mat13"> Introduction to Simulink </string>
+    <string name="mat14">Operating Principle And Management of Simulink
+ </string>
+    <string name="mat15">Solving Differential Equations with Simulink  </string>
+    <string name="mat16"> Interaction with MATLAB </string>
+
     <!--abous us-->
     <string
         name="aboutus">Pioneers, game changers and thought leaders is we call ourselves at ADOSAT. Adosat has been incorporated to help students manoeuvre their careers more effectively. In the changing times where technology plays a very important part in daily lives of human beings, we act as a catalyst in every student’s career. Today’s competitive world demands students to be adept with latest technology, skills and knowledge. We work meticulously on each aspect, making them abreast of new trends in the industry We provide a number of services that ensures that the student is sculptured to perfection in their desired field and do not have much of an issue in achieving milestones in their work place. Youngsters in today’s scenario have a fire inside them to acquire the best they could from the world around them, and we assure you that ADOSAT will be one of the best decisions you have made in your life.  Entry into the corporate world is not easy and we are making it a cake walk for you, what more do you want?</string>
