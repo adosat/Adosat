@@ -22,6 +22,10 @@ public class DashBoard extends AppCompatActivity {
     CardView crdview;
     CardView crdview1;
     CardView crdview4;
+    CardView card_view3;
+    CardView web_d;
+    CardView workshop;
+    CardView intern;
 
 
     @Override
@@ -51,12 +55,53 @@ public class DashBoard extends AppCompatActivity {
             }
         });
 
+        card_view3 = (CardView) findViewById(R.id.card_view3);
+        card_view3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Add your code in here!
+                Intent in = new Intent(DashBoard.this, acp_pgm.class);
+                startActivity(in);
+            }
+        });
+
         crdview4 = (CardView) findViewById(R.id.card_view4);
         crdview4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Add your code in here!
                 Intent in = new Intent(DashBoard.this, project.class);
+                startActivity(in);
+            }
+        });
+
+        workshop = (CardView) findViewById(R.id.workshop);
+        workshop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Add your code in here!
+                Intent in = new Intent(DashBoard.this, workshop.class);
+                startActivity(in);
+            }
+        });
+
+
+        web_d = (CardView) findViewById(R.id.web_d);
+        web_d.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Add your code in here!
+                Intent in = new Intent(DashBoard.this, web_development.class);
+                startActivity(in);
+            }
+        });
+
+        intern = (CardView) findViewById(R.id.intern);
+        intern.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Add your code in here!
+                Intent in = new Intent(DashBoard.this, internship.class);
                 startActivity(in);
             }
         });
