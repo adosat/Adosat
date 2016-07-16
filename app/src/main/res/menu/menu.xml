@@ -41,7 +41,7 @@
                     android:icon="@drawable/fbicon"
                     android:id="@+id/fb"
                     android:orderInCategory="100"
-                    android:title="Navigate"
+                    android:title="Facebook"
                     app:showAsAction="never" />
 
 </menu>>

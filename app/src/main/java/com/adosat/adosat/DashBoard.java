@@ -19,9 +19,9 @@ public class DashBoard extends AppCompatActivity {
 
     private MediaPlayer mMediaPlayer;
 
-
-    CardView crdview,crdview1;
-
+    CardView crdview;
+    CardView crdview1;
+    CardView crdview4;
 
 
     @Override
@@ -30,6 +30,16 @@ public class DashBoard extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mMediaPlayer= MediaPlayer.create(this, R.raw.adosat);
         mMediaPlayer.start();
+
+        crdview1 = (CardView) findViewById(R.id.mobapp);
+        crdview1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Add your code in here!
+                Intent in = new Intent(DashBoard.this, MobileAppDevelopmentActivity.class);
+                startActivity(in);
+            }
+        });
 
         crdview = (CardView) findViewById(R.id.courses);
         crdview.setOnClickListener(new View.OnClickListener() {
@@ -40,15 +50,17 @@ public class DashBoard extends AppCompatActivity {
                 startActivity(in);
             }
         });
-        crdview1 = (CardView) findViewById(R.id.mobdev);
-        crdview1.setOnClickListener(new View.OnClickListener() {
+
+        crdview4 = (CardView) findViewById(R.id.card_view4);
+        crdview4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Add your code in here!
-                Intent in = new Intent(DashBoard.this, MobileAppDevelopmentActivity.class);
+                Intent in = new Intent(DashBoard.this, project.class);
                 startActivity(in);
             }
         });
+
 
     }
     @Override

@@ -76,8 +76,8 @@
             android:theme="@style/AppTheme.DialogBox" />
         <activity
             android:name=".MapsActivity"
-            android:parentActivityName=".DashBoard"
-            android:label="@string/title_activity_maps" />
+            android:label="@string/title_activity_maps"
+            android:parentActivityName=".DashBoard" />
         <activity
             android:name=".CoreJava"
             android:theme="@style/AppTheme.DialogBox" />
@@ -87,24 +87,33 @@
         <activity
             android:name=".IotEEE"
             android:theme="@style/AppTheme.DialogBox" />
-        <activity android:name=".IotEeeRasberry"
-            android:theme="@style/AppTheme.DialogBox"/>
-        <activity android:name=".AndroidAppdevelopment"
+        <activity
+            android:name=".IotEeeRasberry"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".AndroidAppdevelopment"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".MobileAppDevelopmentActivity"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".IosDevelopmentActivity"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".WindowsDevelopmentActivity"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".CrossPlatformActivity"
+            android:parentActivityName=".DashBoard" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".AboutUs"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".FollowFacebook"
+            android:parentActivityName=".DashBoard" />
+        <activity android:name=".project"
             android:parentActivityName=".DashBoard"/>
-        <activity android:name=".MobileAppDevelopmentActivity"
-            android:parentActivityName=".DashBoard"/>
-        <activity android:name=".IosDevelopmentActivity"
-            android:parentActivityName=".DashBoard"/>
-        <activity android:name=".WindowsDevelopmentActivity"
-            android:parentActivityName=".DashBoard"/>
-        <activity android:name=".CrossPlatformActivity"
-            android:parentActivityName=".DashBoard"/>
-        <activity android:name=".LoginActivity"/>
-        <activity android:name=".AboutUs"
-            android:parentActivityName=".DashBoard"/>
-        <activity android:name=".FollowFacebook"
-            android:parentActivityName=".DashBoard"/>
-
     </application>
 
 </manifest>

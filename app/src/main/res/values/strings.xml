@@ -246,6 +246,43 @@
     <string name="basicOps">Basic OOPs </string>
     <string name="otrConcept">Other Concepts</string>
 
+    <!--proj-->
+    <string name="Projects">Projects</string>
+    <string name="proj1">Android</string>
+    <string name="proj2">Internet Of Things</string>
+    <string name="proj3">Java</string>
+    <string name="proj4">Rasberry Pi</string>
+    <string name="proj5">Arduino</string>
+    <string name="proj6">Embeded</string>
+    <string name="proj7">Big Data</string>
+    <string name="proj8">Cloud Computing</string>
+    <string name="proj9">PLC scada</string>
+    <string name="proj10">Data mining </string>
+    <string name="proj11">Computation and Data Security</string>
+    <string name="proj12">Networking</string>
+    <string name="proj13">Embedded Projects</string>
+    <string name="proj14">Digital Signal Processing Projects</string>
+    <string name="proj15">VLSI Projects</string>
+    <string name="proj16">Image Processing Projects</string>
+    <string name="proj17">Automobile Projects</string>
+    <string name="proj18">Design and Fabrication Projects</string>
+    <string name="proj19">Hydraulics And Pneumatics Projects</string>
+    <string name="proj20">Automation And Mechatronics Projects</string>
+    <string name="proj21">Software Engineering Projects</string>
+    <string name="proj22">Mobile Computing Projects</string>
+    <string name="proj23">Automation Projects</string>
+    <string name="proj24">Wireless Projects</string>
+    <string name="proj25">GSM-GPS Projects</string>
+    <string name="proj26">Electrical Projects</string>
+    <string name="proj27">BioMedical Projects</string>
+    <string name="proj28">Network Security Projects</string>
+    <string name="proj29">Mini Projects</string>
+    <string name="proj30">RTOS Projects</string>
+
+
+
+
+
     <!--J2EE-->
     <string name="j2ee">J2EE</string>
     <string name="j2ee1">History of J2EE</string>
