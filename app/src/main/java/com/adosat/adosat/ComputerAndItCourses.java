@@ -49,7 +49,7 @@ public class ComputerAndItCourses extends AppCompatActivity {
         adapter.addFrag(new CompMqsql(), "MySql");
         adapter.addFrag(new CompCcna(), "CCNA");
 
-        adapter.addFrag(new CompRobotics(), "Robotics");
+
 
         viewPager.setAdapter(adapter);
     }

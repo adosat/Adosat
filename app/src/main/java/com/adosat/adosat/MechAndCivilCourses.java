@@ -43,7 +43,7 @@ public class MechAndCivilCourses extends AppCompatActivity {
 
         private void setupViewPager(ViewPager viewPager) {
             ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-            adapter.addFrag(new MechCad(), "CAD/AutoCAD/CAM");
+            adapter.addFrag(new MechCad(), "AutoCAD");
             adapter.addFrag(new MechCatia(), "CATIA");
             adapter.addFrag(new MechPROe(), "PRO-e");
             adapter.addFrag(new MechStaadPro(), "STAAD.Pro");

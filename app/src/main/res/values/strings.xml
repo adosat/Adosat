@@ -390,7 +390,71 @@ those threats</string>
     <string name="sql20"> Handling Transactions - I </string>
     <string name="sql21"> Handling Transactions - II </string>
 
-
+    <!--cad-->
+    <string name="cad1">Taking the AutoCAD Tour </string>
+    <string name="cad2">reating Basic Drawings </string>
+    <string name="cad3">Manipulating Objects </string>
+    <string name="cad4"> Drawing Organization and Inquiry Commands </string>
+    <string name="cad5">Altering Objects </string>
+    <string name="cad6">Annotating Drawings </string>
+    <string name="cad7">Hatching Objects </string>
+    <string name="cad8">Dimensioning </string>
+    <string name="cad9"> Working with Reusable Content </string>
+    <string name="cad10">Creating Additional Drawing Objects </string>
+    <string name="cad11">Layouts and Plotting </string>
+    <string name="cad12">Template Drawing Creation </string>
+    <string name="cad13">Drawing Objects</string>
+    <string name="cad14">Manipulating Objects and Data </string>
+    <string name="cad15">Template Drawing Creation </string>
+    <string name="cad16">Dimensioning and Annotation </string>
+    <string name="cad17">Reusable Content </string>
+    <string name="cad18"> Working with Blocks and Attributes </string>
+    <string name="cad19">Dynamic Blocks </string>
+    <string name="cad20">Layer Management and Best Practices </string>
+    <string name="cad21"> Layouts and Views </string>
+    <string name="cad22"> Plotting </string>
+    <string name="cad23"> Introduction to Sheet Sets </string>
+    <string name="cad24"> Creating Tables </string>
+    <!--cattiya-->
+    <string name="catt1"> Introduction To Catia  </string>
+    <string name="catt2">Drawing Sketches In The Sketcher Workbench-I  </string>
+    <string name="catt3">Drawing Sketches In The Sketcher Workbench-II  </string>
+    <string name="catt4"> Drawing Organization and Inquiry Commands </string>
+    <string name="catt5">Constraining Sketches And Creating Base Features  </string>
+    <string name="catt6">Reference Elements And Sketch-Based Features  </string>
+    <string name="catt7">Creating Dress-Up And Hole Features  </string>
+    <string name="catt8">Editing Features  </string>
+    <string name="catt9"> Transformation Features And Advanced Modeling Tools-I </string>
+    <string name="catt10">Advanced Modeling Tools-II  </string>
+    <string name="catt11">Working With The Wireframe And Surface Design Workbench  </string>
+    <string name="catt12">Editing And Modifying Surfaces  </string>
+    <string name="catt13">Assembly Modeling </string>
+    <string name="catt14">Working With The Drafting Workbench-I  </string>
+    <string name="catt15"> Working With The Drafting Workbench-II  </string>
+    <string name="catt16">Working With Sheet Metal Components  </string>
+    <string name="catt17">DMU Kinematics  </string>
+    <!--proe-->
+    <string name="proe1"> Introduction To Pre E  </string>
+    <string name="proe2"> Pro/ENGINEER concepts   </string>
+    <string name="proe3">Creating extrudes, revolves, and ribs   </string>
+    <string name="proe4"> Creating sweeps and blends  </string>
+    <string name="proe5">Creating patterns   </string>
+    <string name="proe6">Relations and parameters   </string>
+    <string name="proe7"> Editing surface features in Pro/ENGINEER   </string>
+    <string name="proe8">Replacing components in an assembly   </string>
+    <string name="proe9"> Primary walls, Secondary and unattached walls  </string>
+    <string name="proe10">Sheet metal forms  </string>
+    <!--abous us-->
+    <string name="staad1">  Introduction to STAAD Pro  </string>
+    <string name="staad2"> Geometry </string>
+    <string name="staad3">Useful Function to Complete the Geometry   </string>
+    <string name="staad4"> Properties </string>
+    <string name="staad5"> Constants, Supports, and Specifications   </string>
+    <string name="staad6"> Loading   </string>
+    <string name="staad7"> Analysis  </string>
+    <string name="staad8"> Post Processing  </string>
+    <string name="staad9"> Concrete Design </string>
+    <string name="staad10">Steel Design  </string>
     <!--abous us-->
     <string
         name="aboutus">Pioneers, game changers and thought leaders is we call ourselves at ADOSAT. Adosat has been incorporated to help students manoeuvre their careers more effectively. In the changing times where technology plays a very important part in daily lives of human beings, we act as a catalyst in every student’s career. Today’s competitive world demands students to be adept with latest technology, skills and knowledge. We work meticulously on each aspect, making them abreast of new trends in the industry We provide a number of services that ensures that the student is sculptured to perfection in their desired field and do not have much of an issue in achieving milestones in their work place. Youngsters in today’s scenario have a fire inside them to acquire the best they could from the world around them, and we assure you that ADOSAT will be one of the best decisions you have made in your life.  Entry into the corporate world is not easy and we are making it a cake walk for you, what more do you want?</string>
