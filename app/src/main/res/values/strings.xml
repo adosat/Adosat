@@ -377,6 +377,59 @@
     <string name="Remoteserveraccess">Remote server access</string>
     <string name="SMTP">SMTP</string>
     <string name="WorkingwithRaspberryPi">Working with Raspberry Pi</string>
+    <!--CCNA-->
+    <string name="net1">Basics of Networking and Design of Simple Networks</string>
+    <string name="net2"> Describe network communications using layered models</string>
+    <string name="net3">Understanding Protocols with layered approach</string>
+    <string name="net4">Understanding TCP/IP and UDP</string>
+    <string name="net5">IP addressing and subnetting</string>
+    <string name="net6">VLSM, FLSM, CIDR and summarization</string>
+    <string name="net7">Describe Cisco network devices</string>
+    <string name="net8">Perform an initial configuration on a router</string>
+    <string name="net9"> Describe the operation of Cisco routers</string>
+    <string name="net10">How to configure Cisco routers</string>
+    <string name="net11">Evaluate the characteristics of routing protocols and ROUTED PROTOCOLS</string>
+    <string name="net12">Advanced implementation of routing protocols</string>
+    <string name="net13">Configure routing protocols given user requirements.</string>
+    <string name="net14">Develop an access list to meet user specifications</string>
+    <string name="net15">Understanding Cisco switches and the layered Physical network approach</string>
+    <string name="net16">Configure a switch with VLANS and inter-switch communication</string>
+    <string name="net17">Describe the Spanning Tree process</string>
+    <string name="net18">Evaluate key characteristics of WANs</string>
+    <string name="net19">Troubleshoot WAN implementation issues</string>
+    <string name="net20"> IOS BACK UP and PASSWORD BREAKING TECHNIQUE OF ROUTERS and SWITCHES</string>
+    <string name="net21"> Configure a router for additional administrative functionality</string>
+    <string name="net22">Wireless and WLAN implementations</string>
+    <string name="net23">dentify security threats to a network and describe general methods to mitigate
+those threats</string>
 
+
+    <!--sql-->
+    <string name="sql1"> Getting Introduced to Database Management Concepts </string>
+    <string name="sql2"> Working with Relation Calculus </string>
+    <string name="sql3">Explaining Relational Database Design </string>
+    <string name="sql4">Practice Exercises on Normalization and E/R Diagrams </string>
+    <string name="sql5">Getting Acquainted with SQL Server 2008 </string>
+    <string name="sql6">Performing Some Basic Query - I </string>
+    <string name="sql7">Performing Some Basic Query - II </string>
+    <string name="sql8">Performing Some Basic Query - III </string>
+    <string name="sql9"> Performing Some Basic Query - IV </string>
+    <string name="sql10">Working with Functions </string>
+    <string name="sql11">Working with DML Statements </string>
+    <string name="sql12">Working with DDL Statements </string>
+    <string name="sql13">Using Views </string>
+    <string name="sql14">Using Indexes </string>
+    <string name="sql15">Advanced T-SQL: Programmability </string>
+    <string name="sql16">Using Stored Procedures - I </string>
+    <string name="sql17">Using Stored Procedures - II </string>
+    <string name="sql18"> Working with Trigger </string>
+    <string name="sql19">Working with User-Defined Functions </string>
+    <string name="sql20"> Handling Transactions - I </string>
+    <string name="sql21"> Handling Transactions - II </string>
+
+
+    <!--abous us-->
+    <string
+        name="aboutus">Pioneers, game changers and thought leaders is we call ourselves at ADOSAT. Adosat has been incorporated to help students manoeuvre their careers more effectively. In the changing times where technology plays a very important part in daily lives of human beings, we act as a catalyst in every student’s career. Today’s competitive world demands students to be adept with latest technology, skills and knowledge. We work meticulously on each aspect, making them abreast of new trends in the industry We provide a number of services that ensures that the student is sculptured to perfection in their desired field and do not have much of an issue in achieving milestones in their work place. Youngsters in today’s scenario have a fire inside them to acquire the best they could from the world around them, and we assure you that ADOSAT will be one of the best decisions you have made in your life.  Entry into the corporate world is not easy and we are making it a cake walk for you, what more do you want?</string>
 
 </resources>

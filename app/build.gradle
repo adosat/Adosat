@@ -19,7 +19,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
 }
+
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
@@ -34,6 +36,7 @@ dependencies {
     compile 'com.google.firebase:firebase-auth:9.2.1'
     compile 'com.google.android.gms:play-services:9.2.1'
     compile 'com.android.support:multidex:+'
+    compile 'com.uncopt:android.justified:1.0'
 
 }
 apply plugin: 'com.google.gms.google-services'

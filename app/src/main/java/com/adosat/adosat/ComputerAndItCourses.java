@@ -44,14 +44,11 @@ public class ComputerAndItCourses extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFrag(new CompAndroid(), "Android");
+        adapter.addFrag(new CompIotWithCloudandRaspberryPi(), "Internet Of Things");
         adapter.addFrag(new CompJava(), "Java and J2EE");
         adapter.addFrag(new CompMqsql(), "MySql");
-        adapter.addFrag(new CompDBMS(), "DBMS");
-        adapter.addFrag(new CompCste(), "Certified Software Tester");
         adapter.addFrag(new CompCcna(), "CCNA");
-        adapter.addFrag(new CompMobileTechnology(), "Mobile Technology");
-        adapter.addFrag(new CompOperatingSystems(), "Operating System");
-        adapter.addFrag(new CompIotWithCloudandRaspberryPi(), "Internet Of Things");
+
         adapter.addFrag(new CompRobotics(), "Robotics");
 
         viewPager.setAdapter(adapter);
