@@ -1,11 +1,13 @@
 package com.adosat.adosat;
 
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 public class CompCcna extends Fragment {
 
@@ -22,7 +24,16 @@ public class CompCcna extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.activity_comp_ccna, container, false);
+        View root =  inflater.inflate(R.layout.activity_comp_ccna, container, false);
+        Button btn1 = (Button) root.findViewById(R.id.bsylla);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(),CcnaActivity.class);
+                startActivity(intent);
+            }
+        });
+        return root;
     }
 
 }

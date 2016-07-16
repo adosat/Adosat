@@ -105,6 +105,9 @@
         <activity android:name=".FollowFacebook"
             android:parentActivityName=".DashBoard"/>
 
+        <activity android:name=".MysqlActivity"
+            android:parentActivityName=".ComputerAndItCourses"/>
+
     </application>
 
 </manifest>
