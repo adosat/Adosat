@@ -106,19 +106,27 @@
             android:parentActivityName=".DashBoard"/>
 
         <activity android:name=".MysqlActivity"
+            android:theme="@style/AppTheme.DialogBox"
             android:parentActivityName=".ComputerAndItCourses"/>
         <activity android:name=".CcnaActivity"
+            android:theme="@style/AppTheme.DialogBox"
             android:parentActivityName=".ComputerAndItCourses"/>
         <activity android:name=".AutoCadActivity"
+            android:theme="@style/AppTheme.DialogBox"
             android:parentActivityName=".MechAndCivilCourses"/>
         <activity android:name=".CattiaActivity"
+            android:theme="@style/AppTheme.DialogBox"
             android:parentActivityName=".MechAndCivilCourses"/>
         <activity android:name=".ProeActivity"
+            android:theme="@style/AppTheme.DialogBox"
             android:parentActivityName=".MechAndCivilCourses"/>
         <activity android:name=".SttadProActivity"
+            android:theme="@style/AppTheme.DialogBox"
             android:parentActivityName=".MechAndCivilCourses"/>
         <activity android:name=".MatlabActivity"
+            android:theme="@style/AppTheme.DialogBox"
             android:parentActivityName=".EEEandECECourses"/>
+
 
 
     </application>
