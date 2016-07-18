@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:scaleType="fitXY"
-        android:src="@drawable/whoweare"
+        android:src="@drawable/androidnougat"
         android:id="@+id/imageView2"
 
         android:layout_alignParentEnd="true"
@@ -16,6 +16,6 @@
     <WebView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/web5"></WebView>
+        android:id="@+id/web6"></WebView>
 
 </LinearLayout>

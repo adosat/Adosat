@@ -44,11 +44,8 @@ public class EEEandECECourses extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFrag(new EEEMatLab(), "MATLAB");
-        adapter.addFrag(new EEEPld(), "VERILOG/ VHDL");
-        adapter.addFrag(new EEEVerilogVhdl(), "FProgrammable Logic Device (PLD)");
-        adapter.addFrag(new EEEFpga(), "Field Programmable Logic Arrays (FPGA)");
         adapter.addFrag(new EEEIotAndRasberryPie(), "Internet Of Things");
-        adapter.addFrag(new EEEDecelopPrototypeWithRaspPi(), "Development prototypes with Raspberry Pi");
+
 
         viewPager.setAdapter(adapter);
     }

@@ -1,26 +1,26 @@
 package com.adosat.adosat;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 
 /**
- * Created by jenith on 7/15/2016.
+ * Created by jenith on 7/16/2016.
  */
-public class WindowsDevelopmentActivity extends AppCompatActivity {
+public class SoftSkills extends AppCompatActivity {
     WebView mWebView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_windows_app_development);
+        setContentView(R.layout.activity_spoken_english);
 
-        mWebView = (WebView) findViewById(R.id.web3);
+        mWebView = (WebView) findViewById(R.id.web6);
 
         String text = "<html><body>" + "<p align=\"justify\">"
-                + getString(R.string.aboutus) + "</p> " + "</body></html>";
+                + getString(R.string.softskills) + "</p> " + "</body></html>";
 
         mWebView.loadData(text, "text/html", "utf-8");
     }
 }
+

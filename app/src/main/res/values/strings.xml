@@ -246,40 +246,6 @@
     <string name="basicOps">Basic OOPs </string>
     <string name="otrConcept">Other Concepts</string>
 
-    <!--proj-->
-    <string name="Projects">Projects</string>
-    <string name="proj1">Android</string>
-    <string name="proj2">Internet Of Things</string>
-    <string name="proj3">Java</string>
-    <string name="proj4">Rasberry Pi</string>
-    <string name="proj5">Arduino</string>
-    <string name="proj6">Embeded</string>
-    <string name="proj7">Big Data</string>
-    <string name="proj8">Cloud Computing</string>
-    <string name="proj9">PLC scada</string>
-    <string name="proj10">Data mining </string>
-    <string name="proj11">Computation and Data Security</string>
-    <string name="proj12">Networking</string>
-    <string name="proj13">Embedded Projects</string>
-    <string name="proj14">Digital Signal Processing Projects</string>
-    <string name="proj15">VLSI Projects</string>
-    <string name="proj16">Image Processing Projects</string>
-    <string name="proj17">Automobile Projects</string>
-    <string name="proj18">Design and Fabrication Projects</string>
-    <string name="proj19">Hydraulics And Pneumatics Projects</string>
-    <string name="proj20">Automation And Mechatronics Projects</string>
-    <string name="proj21">Software Engineering Projects</string>
-    <string name="proj22">Mobile Computing Projects</string>
-    <string name="proj23">Automation Projects</string>
-    <string name="proj24">Wireless Projects</string>
-    <string name="proj25">GSM-GPS Projects</string>
-    <string name="proj26">Electrical Projects</string>
-    <string name="proj27">BioMedical Projects</string>
-    <string name="proj28">Network Security Projects</string>
-    <string name="proj29">Mini Projects</string>
-    <string name="proj30">RTOS Projects</string>
-
-
     <!--J2EE-->
     <string name="j2ee">J2EE</string>
     <string name="j2ee1">History of J2EE</string>
@@ -424,53 +390,9 @@ those threats</string>
     <string name="sql20"> Handling Transactions - I </string>
     <string name="sql21"> Handling Transactions - II </string>
 
-    <string name="acp_pgm">ADOSAT\'s main motto is to shape the life and career of our
-        younger generation and to extract the best out of them. We are at our best in this
-        program as we know the corporate world like the back of our hand. We can find out in
-        what level our trainees are in and what kind of job will suitable for them. we find out
-        the interests of our students and train them accordingly to make them get their dream job.
-        Counselling sessions will be held for the trainees first and a briefing about all the
-        opportunities that is available is put in front of them. We are very sure that this
-        program will give a direction to the trainees.</string>
-
-    <string name="webdevelopment">Web applications, websites and mobile applications are becoming
-        inevitable for any organisation nowadays. We at ADOSAT have expertise in creating applications
-        and web pages that will lure the customers towards the organisation with extreme comfort.
-        For an application to be successful, there are certain requisites that has to be fulfilled.
-        The application should be extremely user friendly and it should be developed by keeping in
-        mind the user are going to perform in the app. The application should increase the profitability
-        of the organisation or individual exponentially. And if these are the criteria you are looking
-        for, then you are at the right place. </string>
-
-
-    <string name="inter"> Do you need experts to address your institution , 
-        then we are the ones to be approached. We have tie ups with renowned companies, 
-        to officials and experienced from all the fields possible. We can arrange seminars
-        for your students in short notice. Our speakers are people who have their profession
-        running in their blood and their experiences are something that none of the textbooks
-        can teach us. They will be the best source of motivation and inspiration that will bring about
-        a change in the students.</string>
-
-    <!--workshop-->
-    <string name="workshops">College students are the main target for our workshops.
-        Both technical and behavioural skills are concentrated in this workshop.
-        These workshops are places where experience and expertise plays the main role.
-        Professors and professionals from highly reputed institutions are called for guest culture
-        and training. Technical  lessons are compressed and presented to you without any dilution.
-        Teaching through fun methods and interesting games , quizzes are done as our grasping power
-        increases by multiple folds in that way</string>
-
 
     <!--abous us-->
-    <string name="aboutus">Pioneers, game changers and thought leaders is we call ourselves at
-        ADOSAT. Adosat has been incorporated to help students manoeuvre their careers more effectively.
-        In the changing times where technology plays a very important part in daily lives of human beings,
-        we act as a catalyst in every student’s career. Today’s competitive world demands students to be adept
-        with latest technology, skills and knowledge. We work meticulously on each aspect, making them abreast
-        of new trends in the industry We provide a number of services that ensures that the student is sculptured
-        to perfection in their desired field and do not have much of an issue in achieving milestones in their work
-        place. Youngsters in today’s scenario have a fire inside them to acquire the best they could from the world
-        around them, and we assure you that ADOSAT will be one of the best decisions you have made in your life.
-        Entry into the corporate world is not easy and we are making it a cake walk for you, what more do you want?</string>
+    <string
+        name="aboutus">Pioneers, game changers and thought leaders is we call ourselves at ADOSAT. Adosat has been incorporated to help students manoeuvre their careers more effectively. In the changing times where technology plays a very important part in daily lives of human beings, we act as a catalyst in every student’s career. Today’s competitive world demands students to be adept with latest technology, skills and knowledge. We work meticulously on each aspect, making them abreast of new trends in the industry We provide a number of services that ensures that the student is sculptured to perfection in their desired field and do not have much of an issue in achieving milestones in their work place. Youngsters in today’s scenario have a fire inside them to acquire the best they could from the world around them, and we assure you that ADOSAT will be one of the best decisions you have made in your life.  Entry into the corporate world is not easy and we are making it a cake walk for you, what more do you want?</string>
 
 </resources>

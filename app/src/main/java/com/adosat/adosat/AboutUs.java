@@ -17,7 +17,7 @@ public class AboutUs extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutus);
 
-        mWebView = (WebView) findViewById(R.id.webview);
+        mWebView = (WebView) findViewById(R.id.web5);
 
         String text = "<html><body>" + "<p align=\"justify\">"
                 + getString(R.string.aboutus) + "</p> " + "</body></html>";

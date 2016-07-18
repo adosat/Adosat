@@ -156,7 +156,7 @@ public class DashBoard extends AppCompatActivity {
         // TODO Auto-generated method stub
         super.onPause();
         mMediaPlayer.stop();
-
+        finish();
     }
 
 }

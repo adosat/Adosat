@@ -3,13 +3,14 @@ package com.adosat.adosat;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.view.View;
 
 /**
  * Created by jenith on 7/15/2016.
  */
-public class MobileAppDevelopmentActivity extends Activity {
+public class MobileAppDevelopmentActivity extends AppCompatActivity {
     CardView crdview1,crdview2,crdview3,crdview4;
     public void onCreate(Bundle savedInstanceState) {
 
