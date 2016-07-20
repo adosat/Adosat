@@ -68,7 +68,7 @@ public class Departments extends AppCompatActivity {
 
         if (id == R.id.call) {
             Intent callIntent = new Intent(Intent.ACTION_CALL);
-            callIntent.setData(Uri.parse("tel:7338884062"));
+            callIntent.setData(Uri.parse("tel:7338884063"));
             startActivity(callIntent);
         }
         //if (id == R.id.map) {

@@ -20,7 +20,7 @@ public class web_development extends AppCompatActivity {
         mWebView = (WebView) findViewById(R.id.webview);
 
         String text = "<html><body>" + "<p align=\"justify\">"
-                + getString(R.string.acp_pgm) + "</p> " + "</body></html>";
+                + getString(R.string.web_development) + "</p> " + "</body></html>";
 
         mWebView.loadData(text, "text/html", "utf-8");
     }
@@ -43,7 +43,7 @@ public class web_development extends AppCompatActivity {
 
         if (id == R.id.call) {
             Intent callIntent = new Intent(Intent.ACTION_CALL);
-            callIntent.setData(Uri.parse("tel:7338884062"));
+            callIntent.setData(Uri.parse("tel:7338884063"));
             startActivity(callIntent);
         }
 

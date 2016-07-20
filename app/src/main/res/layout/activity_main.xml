@@ -7,12 +7,15 @@
     tools:context=".DashBoard">
 
     <ImageView
+        android:layout_marginTop="10dp"
         android:id="@+id/our_service_image"
         android:src="@drawable/our_services"
-        android:layout_width="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
         android:layout_height="150dp" />
 
 <ScrollView
+    android:layout_marginTop="16dp"
     android:layout_centerInParent="true"
     android:scrollbars="none"
     android:layout_below="@+id/our_service_image"
@@ -499,6 +502,7 @@
                     xmlns:card_view="http://schemas.android.com/apk/res-auto"
                     android:layout_gravity="center"
                     android:layout_width="170dp"
+                    android:id="@+id/softskill"
                     android:layout_height="120dp"
                     card_view:cardCornerRadius="4dp">
 

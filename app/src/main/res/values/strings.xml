@@ -167,6 +167,40 @@
     <string name="advanc38">Google admob</string>
     <string name="advanc39">Mini Project</string>
 
+
+    <!--Projects-->
+    <string name="Projects">Projects</string>
+    <string name="proj1">Android</string>
+    <string name="proj2">IoT</string>
+    <string name="proj3">Rasberry Pi </string>
+    <string name="proj4">Arduino</string>
+    <string name="proj5">Embeded</string>
+    <string name="proj6">Big Data</string>
+    <string name="proj7">Cloud Computing</string>
+    <string name="proj8">PLC scada</string>
+    <string name="proj9">Data mining </string>
+    <string name="proj10">Computation and Data Security</string>
+    <string name="proj11">Networking</string>
+    <string name="proj12">Embedded Projects</string>
+    <string name="proj13">Digital Signal Processing Projects</string>
+    <string name="proj14">VLSI Projects</string>
+    <string name="proj15">Image Processing Projects</string>
+    <string name="proj16">Automobile Projects</string>
+    <string name="proj17">Design and Fabrication Projects</string>
+    <string name="proj18">Hydraulics And Pneumatics Projects</string>
+    <string name="proj19">Automation And Mechatronics Projects</string>
+    <string name="proj20">Software Engineering Projects</string>
+    <string name="proj21">Mobile Computing Projects</string>
+    <string name="proj22">Automation Projects</string>
+    <string name="proj23">Wireless Projects</string>
+    <string name="proj24">GSM-GPS Projects</string>
+    <string name="proj25">Electrical Projects</string>
+    <string name="proj26">BioMedical Projects</string>
+    <string name="proj27">Network Security Projects</string>
+    <string name="proj28">Mini Projects</string>
+    <string name="proj29">RTOS Projects</string>
+
+
     <!--Android Advanced Content-->
     <string name="expert1">History of Android</string>
     <string name="expert2">Introduction to Android OS</string>
@@ -390,9 +424,327 @@ those threats</string>
     <string name="sql20"> Handling Transactions - I </string>
     <string name="sql21"> Handling Transactions - II </string>
 
-
+    <!--cad-->
+    <string name="cad1">Taking the AutoCAD Tour </string>
+    <string name="cad2">Creating Basic Drawings </string>
+    <string name="cad3">Manipulating Objects </string>
+    <string name="cad4"> Drawing Organization and Inquiry Commands </string>
+    <string name="cad5">Altering Objects </string>
+    <string name="cad6">Annotating Drawings </string>
+    <string name="cad7">Hatching Objects </string>
+    <string name="cad8">Dimensioning </string>
+    <string name="cad9"> Working with Reusable Content </string>
+    <string name="cad10">Creating Additional Drawing Objects </string>
+    <string name="cad11">Layouts and Plotting </string>
+    <string name="cad12">Template Drawing Creation </string>
+    <string name="cad13">Drawing Objects</string>
+    <string name="cad14">Manipulating Objects and Data </string>
+    <string name="cad15">Template Drawing Creation </string>
+    <string name="cad16">Dimensioning and Annotation </string>
+    <string name="cad17">Reusable Content </string>
+    <string name="cad18"> Working with Blocks and Attributes </string>
+    <string name="cad19">Dynamic Blocks </string>
+    <string name="cad20">Layer Management and Best Practices </string>
+    <string name="cad21"> Layouts and Views </string>
+    <string name="cad22"> Plotting </string>
+    <string name="cad23"> Introduction to Sheet Sets </string>
+    <string name="cad24"> Creating Tables </string>
+    <!--cattiya-->
+    <string name="catt1"> Introduction To Catia  </string>
+    <string name="catt2">Drawing Sketches In The Sketcher Workbench-I  </string>
+    <string name="catt3">Drawing Sketches In The Sketcher Workbench-II  </string>
+    <string name="catt4"> Drawing Organization and Inquiry Commands </string>
+    <string name="catt5">Constraining Sketches And Creating Base Features  </string>
+    <string name="catt6">Reference Elements And Sketch-Based Features  </string>
+    <string name="catt7">Creating Dress-Up And Hole Features  </string>
+    <string name="catt8">Editing Features  </string>
+    <string name="catt9"> Transformation Features And Advanced Modeling Tools-I </string>
+    <string name="catt10">Advanced Modeling Tools-II  </string>
+    <string name="catt11">Working With The Wireframe And Surface Design Workbench  </string>
+    <string name="catt12">Editing And Modifying Surfaces  </string>
+    <string name="catt13">Assembly Modeling </string>
+    <string name="catt14">Working With The Drafting Workbench-I  </string>
+    <string name="catt15"> Working With The Drafting Workbench-II  </string>
+    <string name="catt16">Working With Sheet Metal Components  </string>
+    <string name="catt17">DMU Kinematics  </string>
+    <!--proe-->
+    <string name="proe1"> Introduction To Pro E  </string>
+    <string name="proe2"> Pro/ENGINEER concepts   </string>
+    <string name="proe3">Creating extrudes, revolves, and ribs   </string>
+    <string name="proe4"> Creating sweeps and blends  </string>
+    <string name="proe5">Creating patterns   </string>
+    <string name="proe6">Relations and parameters   </string>
+    <string name="proe7"> Editing surface features in Pro/ENGINEER   </string>
+    <string name="proe8">Replacing components in an assembly   </string>
+    <string name="proe9"> Primary walls, Secondary and unattached walls  </string>
+    <string name="proe10">Sheet metal forms  </string>
     <!--abous us-->
-    <string
-        name="aboutus">Pioneers, game changers and thought leaders is we call ourselves at ADOSAT. Adosat has been incorporated to help students manoeuvre their careers more effectively. In the changing times where technology plays a very important part in daily lives of human beings, we act as a catalyst in every student’s career. Today’s competitive world demands students to be adept with latest technology, skills and knowledge. We work meticulously on each aspect, making them abreast of new trends in the industry We provide a number of services that ensures that the student is sculptured to perfection in their desired field and do not have much of an issue in achieving milestones in their work place. Youngsters in today’s scenario have a fire inside them to acquire the best they could from the world around them, and we assure you that ADOSAT will be one of the best decisions you have made in your life.  Entry into the corporate world is not easy and we are making it a cake walk for you, what more do you want?</string>
+    <string name="staad1">  Introduction to STAAD Pro  </string>
+    <string name="staad2"> Geometry </string>
+    <string name="staad3">Useful Function to Complete the Geometry   </string>
+    <string name="staad4"> Properties </string>
+    <string name="staad5"> Constants, Supports, and Specifications   </string>
+    <string name="staad6"> Loading   </string>
+    <string name="staad7"> Analysis  </string>
+    <string name="staad8"> Post Processing  </string>
+    <string name="staad9"> Concrete Design </string>
+    <string name="staad10">Steel Design  </string>
+    <!--mat lab-->
+    <string name="mat1">MATLAB and SIMULINK  </string>
+    <string name="mat2">More Complicated Data Structures
+ </string>
+    <string name="mat3"> How to deal with Matrices and Arrays in MATLAB
+ </string>
+    <string name="mat4"> Creating Scripts in MATLAB  </string>
+    <string name="mat5"> Plotting Commands
+ </string>
+    <string name="mat6">Flow control Commands </string>
+    <string name="mat7">User defined functions  </string>
+    <string name="mat8">Functioning and use of predefined functions </string>
+    <string name="mat9"> External Interfaces (serial Port)  </string>
+    <string name="mat10">The MATLAB Desktop </string>
+    <string name="mat11">MATLAB Programming  </string>
+    <string name="mat12">MATLAB Editor and Debugger  </string>
+    <string name="mat13"> Introduction to Simulink </string>
+    <string name="mat14">Operating Principle And Management of Simulink
+ </string>
+    <string name="mat15">Solving Differential Equations with Simulink  </string>
+    <string name="mat16"> Interaction with MATLAB </string>
+    <!--softskills-->
+    <string name="softskills"> Placements and job hunts have become tough and it is a known
+        fact that grades are just an entry ticket. Soft skills is very vital for getting placed in
+        a corporate company. We provide training for freshers who are out there battling for jobs
+        and help them enhance their skills. We train on almost all the soft skills topics, which includes,
+        personality development, time management, stress management, interview skills,motivation etc.,
+        We have our in house behavioural trainers with 25yrs ofexperience. We cater all areas, includes
+        Corporate, Colleges, schools etc.Our training program on soft skills are tailored to suit the
+        students from rural areas thus making them confident enough to compete with their counterparts.  </string>
+    <!--abous us-->
+    <string name="aboutus">Pioneers, game changers and thought leaders is we call ourselves at ADOSAT. Adosat has been incorporated to help students manoeuvre their careers more effectively. In the changing times where technology plays a very important part in daily lives of human beings, we act as a catalyst in every student\’s career. Today\’s competitive world demands students to be adept with latest technology, skills and knowledge. We work meticulously on each aspect, making them abreast of new trends in the industry We provide a number of services that ensures that the student is sculptured to perfection in their desired field and do not have much of an issue in achieving milestones in their work place. Youngsters in today\’s scenario have a fire inside them to acquire the best they could from the world around them, and we assure you that ADOSAT will be one of the best decisions you have made in your life.  Entry into the corporate world is not easy and we are making it a cake walk for you, what more do you want?</string>
+    <!--spoken english-->
+    <string name="spoken"> Good communication is the need of the day. Even the strongest of technical geeks will fall short at work place if they do not have proper communication skills. The most important yardstick for good communication is confidence. Language, pronunciation and all other criteria comes next. We instigate in you the confidence and comfort for communication. Training will be given on spoken English and team work.We have three levels of English training Basic, Intermediate and Advanced .Based on the level of students we customise our courses. We also have unique modules designed and tailored especially for working employees and housewives who can learn and speak fluent English from their place </string>
+    <string name="acp_pgm">ADOSAT\’s main motto is to shape the life and career of our younger
+        generation and to extract the best out of them. We are at our best in this program as we
+        know the corporate world like the back of our hand. We can find out in what level our trainees
+        are in and what kind of job will suitable for them. we find out the interests of our students
+        and train them accordingly to make them get their dream job. Counselling sessions will be held
+        for the trainees first and a briefing about all the opportunities that is available is put in front of them.
+        We are very sure that this program will give a direction to the trainees.</string>
+    <string name="web_development">Web applications, websites and mobile applications are becoming
+        inevitable for any organisation nowadays. We at ADOSAT have expertise in creating applications
+        and web pages that will lure the customers towards the organisation with extreme comfort. For
+        an application to be successful, there are certain requisites that has to be fulfilled.
+        The application should be extremely user friendly and it should be developed by keeping
+        in mind the user are going to perform in the app. The application should increase the profitability
+        of the organisation or individual exponentially. And if these are the criteria you are looking for
+        , then you are at the right place</string>
+    <string name="workshops">College students are the main target for our workshops.
+        Both technical and behavioural skills are concentrated in this workshop.
+        These workshops are places where experience and expertise plays the main role.
+        Professors and professionals from highly reputed institutions are called for guest culture and training.
+        Technical  lessons are compressed and presented to you without any dilution. Teaching through fun methods
+        and interesting games , quizzes are done as our grasping power increases by multiple folds in that way</string>
+    <string name="inter">Internships helps you experience work environment while studying and also provides
+        you the opportunity to put in to effect all that you had learnt. We provide internships that will
+        induce in you the technical knowledge, team work and other workplace necessities. Creativity is a
+        very important factor even in the corporate world and we provide you the perfect environment for that.
+        All your ideas and inputs will be taken and incorporated . The best way to spend your semester holidays
+        is attending internships and enhance your resume</string>
+    
+    <string name="seminar">Do you need experts to address your institution ,
+        then we are the ones to be approached. We have tie ups with renowned 
+        companies, to officials and experienced from all the fields possible. 
+        We can arrange seminars for your students in short notice. Our speakers
+        are people who have their profession running in their blood and their experiences 
+        are something that none of the textbooks can teach us. They will be the best source
+        of motivation and inspiration that will bring about a change in the students.</string>
 
+    <string name="androidappdevelop">Android is the operating system which is predominantly
+        used in mobile phones throughout the world. So an app that is supported by the android
+        OS is the one which will have larger reach. We at ADOSAT develop android applications
+        as per the client needs in a very user friendly way. Android apps are designed for large
+        audience and hence it is very important that it should be simple and easily understandable.
+        we know the pulse of the users and develop it accordingly.</string>
+
+    <string name="iosappdevelopemnt">iphone users are increasing day by day and they feel that they
+        should enjoy all the features and apps that android users have. The apps for the ios should be
+        classy  and we make it exactly the same way. Ios  is not mobile friendly and hence  it is the
+        responsibility of the app developers to make the app as user friendly as possible and still make
+        it in the Ios style.  Higher class people make sure that they own only the iphone and hence if the
+        app is targeted for them, then it should be runnable in Ios.</string>
+
+    <string name="winappdevelopment">Windows are the most widely used operating system in any device
+        and the it has been and is still ruling the IT world. Nokia one of the oldest and most famous
+        of the cell phone manufacturers use windows as their operating system. We at ADOSAT develop apps
+        which are supported by windows in any of the devices ranging from desktops to cell phones.
+        The best part of windows is that , we can access any app that we are using in our cell phone,
+        in our laptop in time of crisis.</string>
+
+    <string name="crossplatformapp">An app is always aimed for a huge audience.
+        But we should also see to that if the app will be relatable to world audience.
+        We will data mine about all the places that the client is targeting and find out if
+        the app will be usable for the people in those countries. If not we will customise the
+        app according to the regions in which the app is aiming to spread. This brings in a cross
+        culture relationship[with different parts of the world and the fame of our country will also grow if
+        our app hits the right cord.</string>
+
+    <string name="projectsmain">We at ADOSAT also undertake the final year projects and mini projects
+        for engineering students in the civil and mechanical streams. We also provide authorised IEEE
+        projectWe do not make the entire project and give you hints to present them but we guide you
+        through every step of the project. The motto of  giving the project is to explore new technology
+        and gain some knowledge out of it. Hence we provide training classes. The kits, and software that
+        are required for executing the projects are all available with us and we will glide you through the
+        project comfortably.</string>
+
+    <!--Solidworks-->
+    <string name="solidwork1">Introduction To Solid Works 2011</string>
+    <string name="solidwork2"> Solid Works -2D Command Line Emulator</string>
+    <string name="solidwork3">Drawing Sketches For Solid Models</string>
+    <string name="solidwork4">Editing And Modifying Sketches</string>
+    <string name="solidwork5">Adding Relations And Dimensions To Sketches</string>
+    <string name="solidwork6">Advanced Dimensioning Techniques And Base Feature Options</string>
+    <string name="solidwork7">Creating Reference Geometries</string>
+    <string name="solidwork8">Advanced Modeling Tools-I</string>
+    <string name="solidwork9"> Advanced Modeling Tools-II</string>
+    <string name="solidwork10">Editing Features</string>
+    <string name="solidwork11">Advanced Modeling Tools-III</string>
+    <string name="solidwork12">Advanced Modeling Tools-IV</string>
+    <string name="solidwork13">Assembly Modeling-I.</string>
+    <string name="solidwork14">Working With Drawing Views-I</string>
+    <string name="solidwork15">Working With Drawing Views-II</string>
+    <string name="solidwork16">Equations, Configurations, And Library Features</string>
+    <string name="solidwork17">Working With Blocks</string>
+    <string name="solidwork18">Sheet Metal Design</string>
+    <string name="solidwork19">Surface Modeling</string>
+
+
+    <!--Ansys-->
+    <string name="ansys1">Introduction to FEA</string>
+    <string name="ansys2"> Analysis </string>
+    <string name="ansys3">Introduction to ANSYS </string>
+    <string name="ansys4">Basic Solid Modeling </string>
+    <string name="ansys5">Advanced Solid Modeling</string>
+    <string name="ansys6">Finite Element Modeling (Fem) – I </string>
+    <string name="ansys7">Finite Element Modeling (Fem) – II </string>
+    <string name="ansys8">Solution And Postprocessor </string>
+    <string name="ansys9">Static Structural Analysis </string>
+    <string name="ansys10">Advanced Structural Analysis (Dynamic And Nonlinear) </string>
+    <string name="ansys11">Advanced Structural Analysis </string>
+    <string name="ansys12">Thermal Analysis </string>
+    <string name="ansys13">Generating The Report Of Analysis</string>
+
+
+    <!--primvera-->
+    <string name="primvera1">Overview and Configuration</string>
+    <string name="primvera2">Structuring Projects </string>
+    <string name="primvera3">Defining Resources and Roles </string>
+    <string name="primvera4">Defining Budgets </string>
+    <string name="primvera5">Implementing the Schedule</string>
+    <string name="primvera6">Updating and Managing the Schedule Managing Baselines</string>
+    <string name="primvera7">Project Issues and Thresholds</string>
+    <string name="primvera8">Tracking Projects</string>
+    <string name="primvera9">Customizing Projects</string>
+    <string name="primvera10">Importing and Exporting Data</string>
+    <string name="primvera11">Transferring Data Using Microsoft Project Files</string>
+
+
+    <!--vlsi-->
+    <string name="vlsi1">Introduction to Digital System </string>
+    <string name="vlsi2">Combinational Logic Design </string>
+    <string name="vlsi3">Sequential Logic Design </string>
+    <string name="vlsi4">Datapath Components</string>
+    <string name="vlsi5">Register-Transfer Level (RTL) Design </string>
+    <string name="vlsi6">Optimizations and Tradeoffs </string>
+    <string name="vlsi7">Introduction to VLSI Design and Testing </string>
+    <string name="vlsi8">Overview of Digital Design with Verilog HDL </string>
+    <string name="vlsi9">Hierarchical Modeling Concepts </string>
+    <string name="vlsi10">Basic Concepts </string>
+    <string name="vlsi11">Modules and Ports</string>
+    <string name="vlsi12">Gate-Level Modeling</string>
+    <string name="vlsi13">Dataflow Modeling </string>
+    <string name="vlsi14">Behavioral Modeling </string>
+    <string name="vlsi15">Tasks and Functions</string>
+    <string name="vlsi16">Useful Modeling Techniques</string>
+    <string name="vlsi17">Timing and Delays</string>
+    <string name="vlsi18">Logic Synthesis with Verilog HDL</string>
+
+
+    <!--plcnscada-->
+    <string name="plcnscada1">PLC (Programmable Logic Control)</string>
+    <string name="plcnscada2">Introduction to Automation </string>
+    <string name="plcnscada3">PLC Details</string>
+    <string name="plcnscada4">Introduction to PLC </string>
+    <string name="plcnscada5">Control Wiring</string>
+    <string name="plcnscada6">Communication with PC</string>
+    <string name="plcnscada7">I/O configuration and Memory Mapping</string>
+    <string name="plcnscada8">Programs and Ladder Diagrams</string>
+    <string name="plcnscada9">The instruction Set </string>
+    <string name="plcnscada10">Communications and fault finding</string>
+    <string name="plcnscada11">MMI (Man Machine Interfacing)</string>
+    <string name="plcnscada12">Ladder Logic Programming</string>
+    <string name="plcnscada13">SCADA COMMUNICATION </string>
+    <string name="plcnscada14">Introduction to SCADA</string>
+    <string name="plcnscada15">SCADA and Networking</string>
+    <string name="plcnscada16">Application Development</string>
+    <string name="plcnscada17">Connectivity with the different hardware, software</string>
+    <string name="plcnscada18">AC Drives</string>
+
+    <!--embeddedc-->
+    <string name="embeddedc1">Introduction Of Embedded C</string>
+    <string name="embeddedc2">Introduction Of Embedded C - Continued</string>
+    <string name="embeddedc3">Programming Embedded Systems In C</string>
+    <string name="embeddedc4">Hello, Embedded World </string>
+    <string name="embeddedc5">Adding Structure To Your Code</string>
+    <string name="embeddedc6">Programming and Interfacing Using Embedded C </string>
+    <string name="embeddedc7">Motor Interfacing </string>
+    <string name="embeddedc8">Sensors</string>
+    <string name="embeddedc9">Actuators</string>
+    <string name="embeddedc10">Multitasking</string>
+
+    <!--advintertech-->
+    <string name="advintertech1">Introduction to ARM Architecture</string>
+    <string name="advintertech2">Introduction to Phillips LPC21XX</string>
+    <string name="advintertech3">System Peripherals of LPC21XX</string>
+    <string name="advintertech4">User Peripherals of LPC2148</string>
+    <string name="advintertech5">Basic Interfacings</string>
+    <string name="advintertech6">Advance Interfacings</string>
+    <string name="advintertech7">Latest trends in embedded fields</string>
+
+    <!--revitint-->
+    <string name="revitint1">Building Information Modeling</string>
+    <string name="revitint2">Revit Architecture Basics</string>
+    <string name="revitint4">The Basics of the Building Model</string>
+    <string name="revitint5">Viewing the Building Model</string>
+    <string name="revitint6">Using Dimensions and Constraints</string>
+    <string name="revitint7">Developing the Building Model</string>
+    <string name="revitint8">Working with Families</string>
+    <string name="revitint9">Detailing Your Design</string>
+    <string name="revitint10">Documenting / Annotating Your Design</string>
+    <string name="revitint11">Presenting the Building Model</string>
+
+    <!--revitadv-->
+    <string name="revitadv1">Importing and Exporting Files</string>
+    <string name="revitadv2">Linking Files</string>
+    <string name="revitadv4">Conceptual Design</string>
+    <string name="revitadv5">Creating Advanced Components</string>
+    <string name="revitadv6">Design and Analysis</string>
+    <string name="revitadv7">Revit Architecture Work sharing</string>
+    <string name="revitadv8">Working with Professionals</string>
+    <string name="revitadv9">Advanced Rendering</string>
+
+    <!--etabs-->
+    <string name="etabs1">Introduction and Modelling</string>
+    <string name="etabs2">Material and Section Properties</string>
+    <string name="etabs4">Draw and Options</string>
+    <string name="etabs5">View, Selection and Options</string>
+    <string name="etabs6">Assignment Structural Options</string>
+    <string name="etabs7">Assignment - Loads</string>
+    <string name="etabs8">Analysis</string>
+    <string name="etabs9">Text and Graphical Output</string>
+    <string name="etabs10">Editing</string>
+    <string name="etabs11">Text Input and File Export/ Import</string>
+    <string name="etabs12">Concrete Design using Indian code IS-456</string>
 </resources>
+
+
+

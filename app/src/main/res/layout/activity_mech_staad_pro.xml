@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#A4C639"
+    android:background="#1e6fa4"
     tools:context="com.adosat.adosat.CompAndroid">
 
     <ScrollView
@@ -101,7 +101,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="@string/and_beg_pric"
+                            android:text="Rs 12,000/-"
                             android:textStyle="bold" />
 
                         <Button

@@ -76,8 +76,8 @@
             android:theme="@style/AppTheme.DialogBox" />
         <activity
             android:name=".MapsActivity"
-            android:parentActivityName=".DashBoard"
-            android:label="@string/title_activity_maps" />
+            android:label="@string/title_activity_maps"
+            android:parentActivityName=".DashBoard" />
         <activity
             android:name=".CoreJava"
             android:theme="@style/AppTheme.DialogBox" />
@@ -85,29 +85,120 @@
             android:name=".j2ee"
             android:theme="@style/AppTheme.DialogBox" />
         <activity
+            android:name=".IotCseItArduino"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
             android:name=".IotEEE"
             android:theme="@style/AppTheme.DialogBox" />
-        <activity android:name=".IotEeeRasberry"
+        <activity
+            android:name=".IotEeeRasberry"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".AndroidAppdevelopment"
+            android:parentActivityName=".MobileAppDevelopmentActivity" />
+        <activity
+            android:name=".MobileAppDevelopmentActivity"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".IosDevelopmentActivity"
+            android:parentActivityName=".MobileAppDevelopmentActivity" />
+        <activity
+            android:name=".WindowsDevelopmentActivity"
+            android:parentActivityName=".MobileAppDevelopmentActivity" />
+        <activity
+            android:name=".CrossPlatformActivity"
+            android:parentActivityName=".MobileAppDevelopmentActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".AboutUs"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".FollowFacebook"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".SpokenEnglish"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".SoftSkills"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".workshop"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".acp_pgm"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".project"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".internship"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".web_development"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".MysqlActivity"
+            android:parentActivityName=".ComputerAndItCourses"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".CcnaActivity"
+            android:parentActivityName=".ComputerAndItCourses"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".AutoCadActivity"
+            android:parentActivityName=".MechAndCivilCourses"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".CattiaActivity"
+            android:parentActivityName=".MechAndCivilCourses"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".ProeActivity"
+            android:parentActivityName=".MechAndCivilCourses"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".SttadProActivity"
+            android:parentActivityName=".MechAndCivilCourses"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".MatlabActivity"
+            android:parentActivityName=".EEEandECECourses"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".seminars"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".EEEvlsiSyllabus"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".EEEadvInterTechSyllabus"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".EEEembeddedSyllabus"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".EEEPlcScadaSyallbus"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".MechAnsysSyllabus"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".MechEtabsSyllabus"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".MechPrimveraSyllabus"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".MechRevitAdvSyllabus"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".MechSolidWorksSyllabus"
+            android:theme="@style/AppTheme.DialogBox" />
+        <activity
+            android:name=".ProjectsMain"
+            android:parentActivityName=".DashBoard" />
+        <activity android:name=".MechRevitInter"
             android:theme="@style/AppTheme.DialogBox"/>
-        <activity android:name=".AndroidAppdevelopment"
-            android:parentActivityName=".DashBoard"/>
-        <activity android:name=".MobileAppDevelopmentActivity"
-            android:parentActivityName=".DashBoard"/>
-        <activity android:name=".IosDevelopmentActivity"
-            android:parentActivityName=".DashBoard"/>
-        <activity android:name=".WindowsDevelopmentActivity"
-            android:parentActivityName=".DashBoard"/>
-        <activity android:name=".CrossPlatformActivity"
-            android:parentActivityName=".DashBoard"/>
-        <activity android:name=".LoginActivity"/>
-        <activity android:name=".AboutUs"
-            android:parentActivityName=".DashBoard"/>
-        <activity android:name=".FollowFacebook"
-            android:parentActivityName=".DashBoard"/>
-
-        <activity android:name=".MysqlActivity"
-            android:parentActivityName=".ComputerAndItCourses"/>
-
     </application>
 
 </manifest>

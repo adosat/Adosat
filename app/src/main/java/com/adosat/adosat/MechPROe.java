@@ -35,7 +35,7 @@ public class MechPROe extends Fragment {
             btn1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(getActivity(),AutoCadActivity.class);
+                    Intent intent = new Intent(getActivity(),ProeActivity.class);
                     startActivity(intent);
                 }
             });

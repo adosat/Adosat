@@ -28,24 +28,13 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-    <TextView
-        android:layout_marginBottom="10dp"
-        android:textSize="20sp"
-        android:textColor="#ea4d4d"
-        android:layout_centerHorizontal="true"
-        android:textStyle="bold"
-        android:text="@string/departments"
-        android:id="@+id/departments"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
     <android.support.v7.widget.CardView
         card_view:cardBackgroundColor="#a19f9d"
-        android:layout_below="@+id/departments"
         android:elevation="6dp"
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/card_view1"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="15dp"
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="180dp"

@@ -26,6 +26,9 @@ public class DashBoard extends AppCompatActivity {
     CardView web_d;
     CardView workshop;
     CardView intern;
+    CardView spokeneng;
+    CardView softskill;
+    CardView card_view5;
 
 
     @Override
@@ -70,7 +73,7 @@ public class DashBoard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Add your code in here!
-                Intent in = new Intent(DashBoard.this, project.class);
+                Intent in = new Intent(DashBoard.this, ProjectsMain.class);
                 startActivity(in);
             }
         });
@@ -107,6 +110,35 @@ public class DashBoard extends AppCompatActivity {
         });
 
 
+        spokeneng = (CardView) findViewById(R.id.card_view6);
+        spokeneng.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Add your code in here!
+                Intent in = new Intent(DashBoard.this, SpokenEnglish.class);
+                startActivity(in);
+            }
+        });
+
+        softskill = (CardView) findViewById(R.id.softskill);
+        softskill.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Add your code in here!
+                Intent in = new Intent(DashBoard.this, SoftSkills.class);
+                startActivity(in);
+            }
+        });
+        card_view5 = (CardView) findViewById(R.id.card_view5);
+        card_view5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Add your code in here!
+                Intent in = new Intent(DashBoard.this, seminars.class);
+                startActivity(in);
+            }
+        });
+
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -126,7 +158,7 @@ public class DashBoard extends AppCompatActivity {
 
         if (id == R.id.call) {
             Intent callIntent = new Intent(Intent.ACTION_CALL);
-            callIntent.setData(Uri.parse("tel:7338884062"));
+            callIntent.setData(Uri.parse("tel:7338884063"));
             startActivity(callIntent);
         }
 
@@ -156,7 +188,7 @@ public class DashBoard extends AppCompatActivity {
         // TODO Auto-generated method stub
         super.onPause();
         mMediaPlayer.stop();
-        finish();
+
     }
 
 }

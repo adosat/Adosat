@@ -45,7 +45,9 @@ public class EEEandECECourses extends AppCompatActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFrag(new EEEMatLab(), "MATLAB");
         adapter.addFrag(new EEEIotAndRasberryPie(), "Internet Of Things");
-
+        adapter.addFrag(new EEEEmbededC(), "Embedded C");
+        adapter.addFrag(new EEEPlcAndScada(), "PLC and SCADA");
+        adapter.addFrag(new EEEVlsi(), "VLSI");
 
         viewPager.setAdapter(adapter);
     }
@@ -95,7 +97,7 @@ public class EEEandECECourses extends AppCompatActivity {
 
         if (id == R.id.call) {
             Intent callIntent = new Intent(Intent.ACTION_CALL);
-            callIntent.setData(Uri.parse("tel:7338884062"));
+            callIntent.setData(Uri.parse("tel:7338884063"));
             startActivity(callIntent);
         }
         if (id == R.id.map) {

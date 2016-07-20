@@ -168,7 +168,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.25"
-                    android:text="@string/and_inter_hrs"
+                    android:text="50"
                     android:textStyle="bold" />
             </LinearLayout>
 

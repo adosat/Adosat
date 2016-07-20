@@ -7,15 +7,12 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:scaleType="fitXY"
-        android:src="@drawable/ios"
-        android:id="@+id/imageView2"
-
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true" />
+        android:src="@drawable/iosdevelopment"
+        android:id="@+id/imageView2" />
 
     <WebView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/web2"></WebView>
+        android:id="@+id/web2"/>
 
 </LinearLayout>

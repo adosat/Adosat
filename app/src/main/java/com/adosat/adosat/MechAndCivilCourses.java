@@ -47,6 +47,11 @@ public class MechAndCivilCourses extends AppCompatActivity {
             adapter.addFrag(new MechCatia(), "CATIA");
             adapter.addFrag(new MechPROe(), "PRO-e");
             adapter.addFrag(new MechStaadPro(), "STAAD.Pro");
+            adapter.addFrag(new MechAnsys(), "Ansys");
+            adapter.addFrag(new MechEtabs(), "ETABS");
+            adapter.addFrag(new MechPrimvera(), "Primvera");
+            adapter.addFrag(new MechRevitAdv(), "Revit Adv");
+            adapter.addFrag(new MechSolidWorks(), "Solid Works");
 
             viewPager.setAdapter(adapter);
         }
@@ -96,7 +101,7 @@ class ViewPagerAdapter extends FragmentPagerAdapter {
 
         if (id == R.id.call) {
             Intent callIntent = new Intent(Intent.ACTION_CALL);
-            callIntent.setData(Uri.parse("tel:7338884062"));
+            callIntent.setData(Uri.parse("tel:7338884063"));
             startActivity(callIntent);
         }
         if (id == R.id.map) {
